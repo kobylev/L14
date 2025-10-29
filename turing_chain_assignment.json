@@ -1,0 +1,73 @@
+{
+    "assignment_title": "Turing Chain: Chained Translation and Vector Error Assessment",
+    "project_goal": "Validate translation quality by measuring the accumulated vector distance in a three-step translation chain (Turing Machine concept).",
+    "required_output": {
+        "statistical_metrics": [
+            "Average_Vector_Distance",
+            "Variance_Vector_Distance"
+        ],
+        "visualization": "Graph_of_Error_by_Sentence_Index"
+    },
+    "components": [
+        {
+            "component_name": "Data_Generation",
+            "requirements": [
+                {
+                    "id": "D.1",
+                    "description": "Generate 100 sentences in English (Source Language)."
+                },
+                {
+                    "id": "D.2",
+                    "description": "Sentence length must be between 10 and 20 words."
+                }
+            ]
+        },
+        {
+            "component_name": "Translation_Agents",
+            "description": "Build three sequential LLM Agents for the translation chain.",
+            "agents": [
+                {
+                    "id": "A.1",
+                    "translation": "**English -> Spanish**",
+                    "role": "First Translation"
+                },
+                {
+                    "id": "A.2",
+                    "translation": "**Spanish -> Hebrew**",
+                    "role": "Intermediate Translation"
+                },
+                {
+                    "id": "A.3",
+                    "translation": "Hebrew -> English",
+                    "role": "Final Re-Translation"
+                }
+            ]
+        },
+        {
+            "component_name": "Vectorization_and_Measurement",
+            "requirements": [
+                {
+                    "id": "V.1",
+                    "description": "Implement a method to convert both the Original English and Re-Translated English text into vectors (Embeddings/Tokens)."
+                },
+                {
+                    "id": "V.2",
+                    "description": "Measure the vector distance (error) between each Original Sentence and its corresponding Re-Translated Sentence."
+                },
+                {
+                    "id": "V.3",
+                    "description": "Use **Cosine Distance** (or Cosine Similarity) as the metric for vector distance."
+                }
+            ]
+        }
+    ],
+    "output_format_details": {
+        "graph_axes": {
+            "x_axis": "Sentence Index (1-100)",
+            "y_axis": "Error (Vector Distance)"
+        }
+    },
+    "advanced_challenges": [
+        "Introduce intentional spelling errors into the original English sentences to test the system's sensitivity (Optional)."
+    ]
+}

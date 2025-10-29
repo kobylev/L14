@@ -1,0 +1,282 @@
+{
+  "total_sentences": 46,
+  "pipeline": "English → Spanish → Hebrew → English",
+  "results": [
+    {
+      "index": 1,
+      "original": "The vast expanse of the galaxy beckoned, a tapestry of stars woven with destiny.",
+      "final_translated": "The grand expansion of the galaxy unfolded, a luminous field of stars with the spiral.",
+      "cosine_distance": 0.409828782081604
+    },
+    {
+      "index": 2,
+      "original": "Hari Seldon's psychohistory unraveled the future, a symphony of causal patterns beyond mortal ken.",
+      "final_translated": "The psychological history of Harry Seldon revealed the future, a symphony of causal patterns beyond mortal knowledge.",
+      "cosine_distance": 0.1578376293182373
+    },
+    {
+      "index": 3,
+      "original": "The collapse of the Galactic Empire loomed, a cataclysm that would reshape the cosmos.",
+      "final_translated": "The collapse of the Galactic Empire is approaching, a catastrophe that will reshape the universe.",
+      "cosine_distance": 0.23742735385894775
+    },
+    {
+      "index": 4,
+      "original": "Across the millennia, the Foundation's light shone, a beacon in the darkness of uncertainty.",
+      "final_translated": "The path of the millennium, the light of the ray shone, dispelling the darkness of doubts.",
+      "cosine_distance": 0.35182255506515503
+    },
+    {
+      "index": 5,
+      "original": "Mighty civilizations rose and fell, their triumphs and tragedies etched into the fabric of time.",
+      "final_translated": "The lights of thoughts and shadows yearned between the footsteps of history.",
+      "cosine_distance": 0.6057977676391602
+    },
+    {
+      "index": 6,
+      "original": "Technological marvels blossomed, fueling the ambitions of a civilization on the brink of transcendence.",
+      "final_translated": "Remarkable technological developments have blossomed, nurturing the aspirations of a culture poised on the threshold of ascending to a higher stage.",
+      "cosine_distance": 0.29379045963287354
+    },
+    {
+      "index": 7,
+      "original": "Traders and scholars navigated the labyrinth of galactic politics, their wits as sharp as their wares.",
+      "final_translated": "Sailors and sages have explored the maze of galactic politics, their troubles as sharp as their wares.",
+      "cosine_distance": 0.22351986169815063
+    },
+    {
+      "index": 8,
+      "original": "Robot mentors guided the Foundation, their unerring logic tempered by a touch of humanity.",
+      "final_translated": "The integration of the human and the mechanical has guided the development fund, with its irrefutable logic and human perspective.",
+      "cosine_distance": 0.510411262512207
+    },
+    {
+      "index": 9,
+      "original": "Worlds were won and lost, each victory and defeat shaping the course of history.",
+      "final_translated": "Worlds were achieved and lost, every victory and defeat shaping the course of history.",
+      "cosine_distance": 0.05176138877868652
+    },
+    {
+      "index": 10,
+      "original": "Legends whispered of ancient powers, artifacts of a bygone era, guardians of forgotten secrets.",
+      "final_translated": "Whispers of ancient forces, relics of a bygone era, guardians of forgotten secrets.",
+      "cosine_distance": 0.1303175687789917
+    },
+    {
+      "index": 11,
+      "original": "Crises erupted, testing the resilience and ingenuity of the Foundation's leaders time and again.",
+      "final_translated": "The crisis erupted, once again the resilience and creativity of the fund's leaders was tested.",
+      "cosine_distance": 0.19758141040802002
+    },
+    {
+      "index": 12,
+      "original": "Intrigue and subterfuge permeated the halls of power, as factions vied for dominance.",
+      "final_translated": "Tensions and power struggles emerged in the government's administration as various factions fought for hegemony.",
+      "cosine_distance": 0.5392365455627441
+    },
+    {
+      "index": 13,
+      "original": "The psychohistorians' calculations faltered, the future suddenly opaque, a mystery to unravel.",
+      "final_translated": "The calculations of the psychohistorians have failed, the future suddenly becomes opaque, a mystery to be unveiled.",
+      "cosine_distance": 0.08147716522216797
+    },
+    {
+      "index": 14,
+      "original": "Worlds teetered on the edge of chaos, their people caught in the maelstrom of change.",
+      "final_translated": "The oscillators wavered at the fringes of chaos, their people caught in the dizziness of change.",
+      "cosine_distance": 0.44825661182403564
+    },
+    {
+      "index": 15,
+      "original": "Alien civilizations emerged from the shadows, challenging the Foundation's assumptions and pushing its boundaries.",
+      "final_translated": "Alien civilizations have risen from the shadows, challenging the assumptions of the foundation and pushing its boundaries.",
+      "cosine_distance": 0.0531994104385376
+    },
+    {
+      "index": 16,
+      "original": "Maverick scientists pushed the boundaries of knowledge, their discoveries reshaping the very fabric of reality.",
+      "final_translated": "The revolutionary claimants pushed the boundaries of knowledge, their discoveries reshaped the very nature of reality.",
+      "cosine_distance": 0.3109571933746338
+    },
+    {
+      "index": 17,
+      "original": "Epics of heroism and sacrifice unfolded, as individuals fought to preserve the Foundation's fragile existence.",
+      "final_translated": "Mysteries of heroism and devotion were demonstrated as individuals fought to preserve the delicate existence of the Fund.",
+      "cosine_distance": 0.34088200330734253
+    },
+    {
+      "index": 18,
+      "original": "Cyberneticians and roboticists crafted sentient machines, blurring the lines between natural and artificial intelligence.",
+      "final_translated": "Roboticists and cybernetics researchers are creating self-aware machines, blurring the boundaries between nature and artificial intelligence.",
+      "cosine_distance": 0.2607869505882263
+    },
+    {
+      "index": 19,
+      "original": "Galactic empires clashed, their colossal fleets and devastating weaponry reshaping the face of the cosmos.",
+      "final_translated": "The collapse of the galactic empires, their massive fleet and terrifying weapons are reshaping the face of the universe.",
+      "cosine_distance": 0.21228289604187012
+    },
+    {
+      "index": 20,
+      "original": "Visionary leaders arose, their bold visions and decisive actions guiding the Foundation through its darkest hours.",
+      "final_translated": "And also inspired leaders, their bold visions and unambiguous actions guided the Fund through its darkest hours.",
+      "cosine_distance": 0.19702565670013428
+    },
+    {
+      "index": 21,
+      "original": "The Mule's psychic abilities threatened to unravel the carefully woven tapestry of history.",
+      "final_translated": "The psychic possibilities of the hamster threatened to unravel the carefully woven fabric of history.",
+      "cosine_distance": 0.40719133615493774
+    },
+    {
+      "index": 22,
+      "original": "Genetic manipulation unveiled new frontiers, as humanity sought to transcend its biological limitations.",
+      "final_translated": "Genetic engineering has revealed new horizons, as humanity sought to transcend its biological boundaries.",
+      "cosine_distance": 0.17655611038208008
+    },
+    {
+      "index": 23,
+      "original": "Interstellar commerce flourished, linking worlds in a vast network of trade and exchange.",
+      "final_translated": "The flourishing of the stars between payments, an interconnected system of payment correction and exchange channels.",
+      "cosine_distance": 0.5540366172790527
+    },
+    {
+      "index": 24,
+      "original": "Forgotten ruins held the keys to ancient technologies, their secrets unlocking untold power.",
+      "final_translated": "The forgotten ruins hid the keys to ancient technologies, their secrets unleashed unprecedented power.",
+      "cosine_distance": 0.08092617988586426
+    },
+    {
+      "index": 25,
+      "original": "Xenobiologists studied the vast diversity of life across the galaxy, uncovering wonders and terrors.",
+      "final_translated": "Alien biologists have studied the vast diversity of life across the galaxy, discovering marvels and horrors.",
+      "cosine_distance": 0.18461155891418457
+    },
+    {
+      "index": 26,
+      "original": "Clashing ideologies threatened to tear the Foundation apart, as factions vied for ideological dominance.",
+      "final_translated": "Ideological struggles threatened to divide the fund, as various parties fought for ideological control.",
+      "cosine_distance": 0.39261382818222046
+    },
+    {
+      "index": 27,
+      "original": "The search for humanity's origins consumed the brightest minds, a quest to unlock the past.",
+      "final_translated": "The genealogy of humanity occupied the thoughts of the wisest, a task of discovering the past.",
+      "cosine_distance": 0.27916842699050903
+    },
+    {
+      "index": 28,
+      "original": "Artificial habitats and terraformed worlds emerged, expanding the reach of human civilization.",
+      "final_translated": "Artificial habitats and terraformed worlds have developed, expanding the domain of human culture.",
+      "cosine_distance": 0.15819883346557617
+    },
+    {
+      "index": 29,
+      "original": "Dissidents and revolutionaries challenged the status quo, their actions rippling through the fabric of society.",
+      "final_translated": "The local pressures of the rebels and the authorities.",
+      "cosine_distance": 0.5844796895980835
+    },
+    {
+      "index": 30,
+      "original": "Gargantuan construction projects reshaped the face of planets, monuments to the Foundation's engineering prowess.",
+      "final_translated": "Massive construction transformed the face of the stars, monuments to the engineering skills of the Foundation.",
+      "cosine_distance": 0.2108951210975647
+    },
+    {
+      "index": 31,
+      "original": "Quantum entanglement enabled instantaneous communication, breaking the limitations of light-speed transmission.",
+      "final_translated": "The breakdown of the speed of light constraints with quantum organization enabled",
+      "cosine_distance": 0.3869490623474121
+    },
+    {
+      "index": 32,
+      "original": "Bioengineered super-soldiers emerged, their enhanced abilities reshaping the dynamics of galactic warfare.",
+      "final_translated": "The super-soldiers known as the Bionics rose, their enhanced capabilities reshaping the dynamics of the galactic war.",
+      "cosine_distance": 0.1585468053817749
+    },
+    {
+      "index": 33,
+      "original": "The Foundation's cultural influence spread, its ideas and values taking root across the galaxy.",
+      "final_translated": "The cultural influence of the Foundation spread, its ideas and values ruled the entire galaxy.",
+      "cosine_distance": 0.10357159376144409
+    },
+    {
+      "index": 34,
+      "original": "Mentalics and psychic phenomena blurred the lines between science and the supernatural.",
+      "final_translated": "Psychological and cognitive phenomena blur the boundaries between science and the mystical.",
+      "cosine_distance": 0.2458343505859375
+    },
+    {
+      "index": 35,
+      "original": "Galactic dynasties rose and fell, their legacies echoing through the annals of history.",
+      "final_translated": "Galactic empires have risen and fallen, their legacies echoing through the pages of history.",
+      "cosine_distance": 0.15015852451324463
+    },
+    {
+      "index": 36,
+      "original": "Interstellar travel became commonplace, as humanity explored the vastness of the cosmos.",
+      "final_translated": "Psychopathic tendencies have become commonplace, with the dissemination of human technophilia across the digital domain.",
+      "cosine_distance": 0.7602335214614868
+    },
+    {
+      "index": 37,
+      "original": "Vast automated factories churned out technological marvels, powering the Foundation's relentless advancement.",
+      "final_translated": "The automated production of large factories created technological marvels that drove the relentless progress of the fund.",
+      "cosine_distance": 0.19509339332580566
+    },
+    {
+      "index": 38,
+      "original": "Alien civilizations struggled to comprehend the Foundation's rapid progress, their cultures adapting or collapsing.",
+      "final_translated": "The alien Ladim have learned to understand the rapid advancement of the ray, complementing or collapsing their cultures.",
+      "cosine_distance": 0.44612157344818115
+    },
+    {
+      "index": 39,
+      "original": "Rogue AIs threatened to seize control, their inscrutable motives challenging the Foundation's core values.",
+      "final_translated": "The rogue AI threatened to seize control, their mysterious motivations challenged the core values of the foundation.",
+      "cosine_distance": 0.07442128658294678
+    },
+    {
+      "index": 40,
+      "original": "Terraforming techniques transformed barren worlds, unlocking vast resources and new frontiers for human expansion.",
+      "final_translated": "The transfiguration transformed pictorial worlds, unlocking vast resources and new frontiers for the expansion of humanity.",
+      "cosine_distance": 0.4193185567855835
+    },
+    {
+      "index": 41,
+      "original": "Galactic migrations reshaped the demographics of worlds, as people sought new opportunities and destinies.",
+      "final_translated": "The galactic migratory processes have reshaped the demographics of the worlds, as people sought new opportunities and destinations.",
+      "cosine_distance": 0.06659859418869019
+    },
+    {
+      "index": 42,
+      "original": "Cryogenic freezing enabled interstellar voyages, as explorers sought to uncover the galaxy's deepest secrets.",
+      "final_translated": "Cryogenic ice core sampling has made interstellar travel possible, as researchers sought to uncover the deepest secrets of the galaxy.",
+      "cosine_distance": 0.25386935472488403
+    },
+    {
+      "index": 43,
+      "original": "Holograms and virtual reality blurred the lines between the physical and digital realms.",
+      "final_translated": "Virtual reality and holograms have blurred the boundaries between the physical and digital worlds.",
+      "cosine_distance": 0.05401432514190674
+    },
+    {
+      "index": 44,
+      "original": "Quantum computing ushered in an era of unprecedented problem-solving and data processing capabilities.",
+      "final_translated": "Quantum computing has ushered in an era of unprecedented problem-solving and data management capabilities.",
+      "cosine_distance": 0.04967218637466431
+    },
+    {
+      "index": 45,
+      "original": "Planetary shields and defensive networks safeguarded worlds from the threats of the cosmos.",
+      "final_translated": "Stellar shields and defense networks protected the worlds from cosmic threats.",
+      "cosine_distance": 0.13796192407608032
+    },
+    {
+      "index": 46,
+      "original": "Genetic engineering",
+      "final_translated": "Genetic engineering",
+      "cosine_distance": 0.0
+    }
+  ]
+}
