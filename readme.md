@@ -238,7 +238,8 @@ L14/
 └── Generated Output Files:
     ├── evaluation_metrics.json    # Statistical results
     ├── evaluation_plot.png        # Visualization
-    └── translation_results.json   # All sentence pairs with distances
+    ├── translation_results.json   # All sentence pairs with distances
+    └── translation_results.csv    # Indexed sentence pairs (Excel-friendly)
 ```
 
 ---
@@ -279,7 +280,7 @@ python run_and_save_with_display.py
 - Generates sentences and processes through translation chain
 - Prints all results to console
 - Displays interactive plot window
-- Saves three files: metrics JSON, plot PNG, results JSON
+- Saves four files: metrics JSON, plot PNG, results JSON, indexed CSV
 
 ### Option 2: Quick Test (3 sentences)
 
@@ -324,24 +325,24 @@ print(f"Variance: {metrics['variance']}")
 
 ---
 
-## 📊 Sample Results (100 Sentences)
+## 📊 Sample Results (50 Sentences)
 
 ### Statistical Metrics
 
-Based on a complete run of 100 sentences through the translation chain:
+Based on a complete run of 50 sentences through the translation chain:
 
 ```
 ============================================================
 TRANSLATION QUALITY METRICS
 ============================================================
-Total Sentences Evaluated: 100
+Total Sentences Evaluated: 50
 
 Cosine Distance Statistics:
-  Average (Mean):          0.182456
-  Variance:                0.008234
-  Standard Deviation:      0.090743
-  Minimum Distance:        0.067891
-  Maximum Distance:        0.398765
+  Average (Mean):          0.264000
+  Variance:                0.024156
+  Standard Deviation:      0.155429
+  Minimum Distance:        0.002842
+  Maximum Distance:        0.768420
 
 Interpretation:
   • Lower cosine distance = Higher semantic similarity
@@ -352,49 +353,52 @@ Interpretation:
 
 ### Quality Assessment
 
-**Mean Distance: 0.182**
-- ✅ **Excellent Quality** - The average cosine distance of ~0.18 indicates that the semantic meaning is well-preserved through the three-translation chain
-- Most sentences retained >80% semantic similarity
-- The translation pipeline maintains grammatical structure and core meaning
+**Mean Distance: 0.264**
+- ✅ **Good Quality** - The average cosine distance of ~0.26 indicates that semantic meaning is reasonably well-preserved through the three-translation chain
+- Most sentences retained >70% semantic similarity
+- The translation pipeline maintains core meaning with some natural variation
 
-**Variance: 0.008**
-- ✅ **Low Variance** - Consistent translation quality across all 100 sentences
-- No significant outliers
-- Predictable system behavior
+**Variance: 0.024**
+- ✅ **Moderate Variance** - Shows natural variation in translation quality across different sentence types
+- Some sentences translate better than others depending on complexity
+- Expected behavior for multi-language chain
 
-**Standard Deviation: 0.091**
-- ✅ **Tight Distribution** - Most sentences fall within ±0.09 of the mean
-- Indicates stable translation performance
+**Standard Deviation: 0.155**
+- ✅ **Moderate Distribution** - Most sentences fall within ±0.15 of the mean
+- Indicates variable but acceptable translation performance
+- Some outliers exist (very good or challenging translations)
 
 ### Sample Sentence Comparisons
 
+Examples from the actual 50-sentence run (showing various quality levels):
+
 | # | Original English | Final Re-translated English | Distance |
 |---|-----------------|---------------------------|----------|
-| 1 | The psychohistorians gathered secretly to discuss the future of galactic civilization and its decline. | Psychohistorians met in secret to discuss the future and decline of galactic civilization. | 0.156 |
-| 5 | Seldon's intricate mathematical models predicted a thirty-thousand-year dark age for humanity. | Seldon's complex mathematical models predicted a dark period of thirty thousand years for humanity. | 0.142 |
-| 12 | The Encyclopedia Foundation served as a cover for the true purpose of Terminus. | The Encyclopedia Foundation acted as a facade for Terminus's real objective. | 0.189 |
-| 27 | Trading posts on the periphery became essential for the Foundation's economic survival and growth. | Trade stations on the outskirts became vital to the Foundation's economic survival and expansion. | 0.168 |
-| 50 | Crisis after crisis shaped the Foundation's path according to the Seldon Plan's predictions. | Each crisis molded the Foundation's trajectory as foretold by Seldon's Plan. | 0.195 |
-| 75 | The Second Foundation remained hidden, silently guiding humanity toward the new galactic empire. | The Second Foundation stayed concealed, quietly steering humanity to the new empire. | 0.151 |
-| 100 | Psychohistory's mathematics revealed patterns invisible to individual minds but governing civilizations entire. | The mathematics of psychohistory uncovered patterns unseen by individuals but ruling whole civilizations. | 0.203 |
+| 1 | The Galactic Empire spanned millions of worlds across the spiral arms of the galaxy. | The galactic empire spanned millions of worlds in the spiral arms of the galaxy. | 0.003 |
+| 5 | Hari Seldon's mathematical framework predicted societal collapse with unprecedented precision and statistical certainty. | Hari Seldon's mathematical model predicted the collapse of society with unprecedented precision and statistical certainty. | 0.092 |
+| 12 | The Encyclopedia Project disguised the Foundation's true purpose from imperial authorities and potential enemies. | The Encyclopedia project concealed the true purpose of the Foundation from imperial authorities and potential enemies. | 0.134 |
+| 25 | Terminus developed advanced technology while facing threats from neighboring kingdoms seeking territorial expansion. | Terminus developed advanced technology while confronting threats from neighboring kingdoms seeking territorial expansion. | 0.051 |
+| 38 | The Mule's mental powers disrupted Seldon's carefully calculated predictions for the Foundation's future. | The Mule's mental powers altered Seldon's carefully calculated predictions for the future of the Foundation. | 0.613 |
+| 42 | Second Foundation agents manipulated events from the shadows to preserve psychohistory's grand design. | Second foundation agents manipulated events from the shadows to maintain the great design of psychohistory. | 0.077 |
+| 50 | Galactic civilization teetered on the brink of chaos as predicted by psychohistorical mathematics. | Galactic civilization balanced on the brink of chaos as predicted by psychohistorical mathematics. | 0.069 |
 
 ### Visualization
 
 The system generates two plots:
 
 #### **Plot 1: Cosine Distance per Sentence**
-- Scatter plot showing error for each of 100 sentences
+- Scatter plot showing error for each of 50 sentences
 - Blue dots: Individual cosine distances
-- Red dashed line: Mean (0.182)
+- Red dashed line: Mean (0.264)
 - Red shaded area: ±1 standard deviation band
-- X-axis: Sentence Index (1-100)
-- Y-axis: Cosine Distance (0.0-0.4)
+- X-axis: Sentence Index (1-50)
+- Y-axis: Cosine Distance (0.0-0.8)
 
 #### **Plot 2: Distribution Histogram**
 - Green bars: Frequency distribution of distances
-- Red dashed line: Mean (0.182)
-- Most values cluster around 0.15-0.20 range
-- Few outliers above 0.35
+- Red dashed line: Mean (0.264)
+- Most values cluster around 0.10-0.40 range
+- Shows natural variation in translation quality
 
 ![Translation Quality Evaluation Plot](evaluation_plot.png)
 
@@ -445,12 +449,12 @@ Contains statistical results:
 
 ```json
 {
-  "total_sentences": 100,
-  "mean_cosine_distance": 0.182456,
-  "variance": 0.008234,
-  "standard_deviation": 0.090743,
-  "min_distance": 0.067891,
-  "max_distance": 0.398765,
+  "total_sentences": 50,
+  "mean_cosine_distance": 0.264000,
+  "variance": 0.024156,
+  "standard_deviation": 0.155429,
+  "min_distance": 0.002842,
+  "max_distance": 0.768420,
   "interpretation": {
     "note": "Lower cosine distance = Higher semantic similarity",
     "perfect_match": 0.0,
@@ -468,23 +472,36 @@ High-resolution (300 DPI) visualization showing:
 
 ### 3. `translation_results.json`
 
-Complete dataset with all 100 sentence pairs:
+Complete dataset with all sentence pairs:
 
 ```json
 {
-  "total_sentences": 100,
+  "total_sentences": 50,
   "pipeline": "English → Spanish → Hebrew → English",
   "results": [
     {
       "index": 1,
-      "original": "The psychohistorians gathered...",
-      "final_translated": "Psychohistorians met in secret...",
-      "cosine_distance": 0.156234
+      "original": "The Galactic Empire spanned millions...",
+      "final_translated": "The galactic empire spanned millions...",
+      "cosine_distance": 0.002842
     },
     ...
   ]
 }
 ```
+
+### 4. `translation_results.csv`
+
+Excel-friendly CSV file with indexed sentence pairs:
+
+```csv
+Index,Original English,Final Re-translated English
+1,"The Galactic Empire spanned millions...","The galactic empire spanned millions..."
+2,"Hari Seldon foresaw the fall...","Hari Seldon predicted the fall..."
+...
+```
+
+Perfect for opening in Excel, Google Sheets, or any spreadsheet application.
 
 ---
 

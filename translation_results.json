@@ -1,282 +1,606 @@
 {
-  "total_sentences": 46,
+  "total_sentences": 100,
   "pipeline": "English → Spanish → Hebrew → English",
   "results": [
     {
       "index": 1,
-      "original": "The vast expanse of the galaxy beckoned, a tapestry of stars woven with destiny.",
-      "final_translated": "The grand expansion of the galaxy unfolded, a luminous field of stars with the spiral.",
-      "cosine_distance": 0.409828782081604
+      "original": "The once-mighty Empire crumbled, leaving only the Foundation to preserve the light of civilization.",
+      "final_translated": "The once powerful empire collapsed, leaving the foundation to preserve the light of culture.",
+      "cosine_distance": 0.14524322748184204
     },
     {
       "index": 2,
-      "original": "Hari Seldon's psychohistory unraveled the future, a symphony of causal patterns beyond mortal ken.",
-      "final_translated": "The psychological history of Harry Seldon revealed the future, a symphony of causal patterns beyond mortal knowledge.",
-      "cosine_distance": 0.1578376293182373
+      "original": "Hari Seldon's psychohistory charted the course of the galaxy, foretelling the coming darkness.",
+      "final_translated": "The psychological history of Harry Seldon charted the course of the galaxy, predicting the impending darkness.",
+      "cosine_distance": 0.12205737829208374
     },
     {
       "index": 3,
-      "original": "The collapse of the Galactic Empire loomed, a cataclysm that would reshape the cosmos.",
-      "final_translated": "The collapse of the Galactic Empire is approaching, a catastrophe that will reshape the universe.",
-      "cosine_distance": 0.23742735385894775
+      "original": "The Mule's mental powers disrupted the Foundation's plans, threatening to plunge the galaxy into chaos.",
+      "final_translated": "The psychic powers of the Mule threatened the Foundation's plans, threatening to plunge the galaxy into chaos.",
+      "cosine_distance": 0.10069483518600464
     },
     {
       "index": 4,
-      "original": "Across the millennia, the Foundation's light shone, a beacon in the darkness of uncertainty.",
-      "final_translated": "The path of the millennium, the light of the ray shone, dispelling the darkness of doubts.",
-      "cosine_distance": 0.35182255506515503
+      "original": "Gaia's collective consciousness sought to reshape the destiny of humankind, challenging the Foundation's ideals.",
+      "final_translated": "And Gaia's collective consciousness aims to rebuild the future of humanity, as it evaluates the ideas of the foundation.",
+      "cosine_distance": 0.17110389471054077
     },
     {
       "index": 5,
-      "original": "Mighty civilizations rose and fell, their triumphs and tragedies etched into the fabric of time.",
-      "final_translated": "The lights of thoughts and shadows yearned between the footsteps of history.",
-      "cosine_distance": 0.6057977676391602
+      "original": "The clashing of Terminus and the rival kingdoms tested the mettle of the Foundation's leaders.",
+      "final_translated": "The warring kingdoms tested the resolve of the leaders of the coalition.",
+      "cosine_distance": 0.4026350975036621
     },
     {
       "index": 6,
-      "original": "Technological marvels blossomed, fueling the ambitions of a civilization on the brink of transcendence.",
-      "final_translated": "Remarkable technological developments have blossomed, nurturing the aspirations of a culture poised on the threshold of ascending to a higher stage.",
-      "cosine_distance": 0.29379045963287354
+      "original": "Trantor's fall signaled the end of a galactic era, ushering in a new age.",
+      "final_translated": "The decline of Trantor marked the end of a galactic era, and heralded the beginning of a new one.",
+      "cosine_distance": 0.13062536716461182
     },
     {
       "index": 7,
-      "original": "Traders and scholars navigated the labyrinth of galactic politics, their wits as sharp as their wares.",
-      "final_translated": "Sailors and sages have explored the maze of galactic politics, their troubles as sharp as their wares.",
-      "cosine_distance": 0.22351986169815063
+      "original": "Salvor Hardin's cunning diplomacy kept the Foundation afloat in a sea of political turmoil.",
+      "final_translated": "The sophisticated diplomatic offensive of Slavor Hardin kept the horn afloat in a sea of political anxieties.",
+      "cosine_distance": 0.36195337772369385
     },
     {
       "index": 8,
-      "original": "Robot mentors guided the Foundation, their unerring logic tempered by a touch of humanity.",
-      "final_translated": "The integration of the human and the mechanical has guided the development fund, with its irrefutable logic and human perspective.",
-      "cosine_distance": 0.510411262512207
+      "original": "The Second Foundation's secret manipulations wove a web of intrigue across the galaxy.",
+      "final_translated": "To the hidden manipulation of the second institution, a network of ruse was woven throughout the Galilee.",
+      "cosine_distance": 0.5435189604759216
     },
     {
       "index": 9,
-      "original": "Worlds were won and lost, each victory and defeat shaping the course of history.",
-      "final_translated": "Worlds were achieved and lost, every victory and defeat shaping the course of history.",
-      "cosine_distance": 0.05176138877868652
+      "original": "The search for the elusive \"Psychic Proton\" drove scientists to the brink of madness.",
+      "final_translated": "The search for the elusive 'psychic proton' has driven scientists to the verge of madness.",
+      "cosine_distance": 0.04526221752166748
     },
     {
       "index": 10,
-      "original": "Legends whispered of ancient powers, artifacts of a bygone era, guardians of forgotten secrets.",
-      "final_translated": "Whispers of ancient forces, relics of a bygone era, guardians of forgotten secrets.",
-      "cosine_distance": 0.1303175687789917
+      "original": "Interstellar trade routes became the lifeblood of the Foundation, sustaining its economic and political power.",
+      "final_translated": "The interstellar trade routes have become the critical support of the Foundation, sustaining its economic and political power.",
+      "cosine_distance": 0.09832584857940674
     },
     {
       "index": 11,
-      "original": "Crises erupted, testing the resilience and ingenuity of the Foundation's leaders time and again.",
-      "final_translated": "The crisis erupted, once again the resilience and creativity of the fund's leaders was tested.",
-      "cosine_distance": 0.19758141040802002
+      "original": "Obscure planets harbored the remnants of the once-mighty Empire, waiting to be discovered.",
+      "final_translated": "Dark worlds hosted the remnants of the once-mighty empire, waiting to be revealed.",
+      "cosine_distance": 0.28915876150131226
     },
     {
       "index": 12,
-      "original": "Intrigue and subterfuge permeated the halls of power, as factions vied for dominance.",
-      "final_translated": "Tensions and power struggles emerged in the government's administration as various factions fought for hegemony.",
-      "cosine_distance": 0.5392365455627441
+      "original": "The Galactic Library's trove of knowledge held the key to the Foundation's survival.",
+      "final_translated": "The comprehensive file of knowledge in the Galactic Library held the key to the survival of the base.",
+      "cosine_distance": 0.17284727096557617
     },
     {
       "index": 13,
-      "original": "The psychohistorians' calculations faltered, the future suddenly opaque, a mystery to unravel.",
-      "final_translated": "The calculations of the psychohistorians have failed, the future suddenly becomes opaque, a mystery to be unveiled.",
-      "cosine_distance": 0.08147716522216797
+      "original": "Robots and androids, relics of the past, found new purpose in serving the Foundation.",
+      "final_translated": "Robots and androids, remnants of the past, found a new purpose to serve the Foundation.",
+      "cosine_distance": 0.04249441623687744
     },
     {
       "index": 14,
-      "original": "Worlds teetered on the edge of chaos, their people caught in the maelstrom of change.",
-      "final_translated": "The oscillators wavered at the fringes of chaos, their people caught in the dizziness of change.",
-      "cosine_distance": 0.44825661182403564
+      "original": "Hyperspace travel connected the far-flung outposts of the Foundation, binding the galaxy together.",
+      "final_translated": "The high-flying operation connected the remote information centers of the Foundation, uniting the galaxy.",
+      "cosine_distance": 0.4281637668609619
     },
     {
       "index": 15,
-      "original": "Alien civilizations emerged from the shadows, challenging the Foundation's assumptions and pushing its boundaries.",
-      "final_translated": "Alien civilizations have risen from the shadows, challenging the assumptions of the foundation and pushing its boundaries.",
-      "cosine_distance": 0.0531994104385376
+      "original": "Mysterious alien civilizations emerged, posing a challenge to the Foundation's expansion and influence.",
+      "final_translated": "Mysterious alien abductions have erupted, posing a challenge to the expansion and influence of the institution.",
+      "cosine_distance": 0.4117783308029175
     },
     {
       "index": 16,
-      "original": "Maverick scientists pushed the boundaries of knowledge, their discoveries reshaping the very fabric of reality.",
-      "final_translated": "The revolutionary claimants pushed the boundaries of knowledge, their discoveries reshaped the very nature of reality.",
-      "cosine_distance": 0.3109571933746338
+      "original": "The Foundation's search for the lost secrets of the Ancients led to unexpected discoveries.",
+      "final_translated": "The search for the ancient lost secrets of the ancients led to unexpected discoveries.",
+      "cosine_distance": 0.07919782400131226
     },
     {
       "index": 17,
-      "original": "Epics of heroism and sacrifice unfolded, as individuals fought to preserve the Foundation's fragile existence.",
-      "final_translated": "Mysteries of heroism and devotion were demonstrated as individuals fought to preserve the delicate existence of the Fund.",
-      "cosine_distance": 0.34088200330734253
+      "original": "Genetic engineering breakthroughs allowed the Foundation to adapt to the changing galactic landscape.",
+      "final_translated": "The advanced genetic engineering technology enabled the Keren to adapt to the changing galactic landscape.",
+      "cosine_distance": 0.25471556186676025
     },
     {
       "index": 18,
-      "original": "Cyberneticians and roboticists crafted sentient machines, blurring the lines between natural and artificial intelligence.",
-      "final_translated": "Roboticists and cybernetics researchers are creating self-aware machines, blurring the boundaries between nature and artificial intelligence.",
-      "cosine_distance": 0.2607869505882263
+      "original": "Megastructures, remnants of the Empire, became the focal points of political and scientific intrigue.",
+      "final_translated": "The giant structures, remnants of the empire, became centers of mystery and science.",
+      "cosine_distance": 0.25784093141555786
     },
     {
       "index": 19,
-      "original": "Galactic empires clashed, their colossal fleets and devastating weaponry reshaping the face of the cosmos.",
-      "final_translated": "The collapse of the galactic empires, their massive fleet and terrifying weapons are reshaping the face of the universe.",
-      "cosine_distance": 0.21228289604187012
+      "original": "The Foundation's scientists raced to unravel the mysteries of the psychic powers.",
+      "final_translated": "Scientists are urgently working to unravel the mysteries of mental powers.",
+      "cosine_distance": 0.30871516466140747
     },
     {
       "index": 20,
-      "original": "Visionary leaders arose, their bold visions and decisive actions guiding the Foundation through its darkest hours.",
-      "final_translated": "And also inspired leaders, their bold visions and unambiguous actions guided the Fund through its darkest hours.",
-      "cosine_distance": 0.19702565670013428
+      "original": "Powerful aristocratic families vied for control of the Foundation, threatening its delicate balance of power.",
+      "final_translated": "Strong aristocratic families competed for control of the fund, threatening the delicate balance of power.",
+      "cosine_distance": 0.20554524660110474
     },
     {
       "index": 21,
-      "original": "The Mule's psychic abilities threatened to unravel the carefully woven tapestry of history.",
-      "final_translated": "The psychic possibilities of the hamster threatened to unravel the carefully woven fabric of history.",
-      "cosine_distance": 0.40719133615493774
+      "original": "The Foundation's colonists faced the harsh realities of establishing new settlements on distant worlds.",
+      "final_translated": "The settlements of the fund faced the harsh reality of establishing new settlements in distant worlds.",
+      "cosine_distance": 0.18854403495788574
     },
     {
       "index": 22,
-      "original": "Genetic manipulation unveiled new frontiers, as humanity sought to transcend its biological limitations.",
-      "final_translated": "Genetic engineering has revealed new horizons, as humanity sought to transcend its biological boundaries.",
-      "cosine_distance": 0.17655611038208008
+      "original": "Artificial intelligence, both helpful and dangerous, played a pivotal role in the Foundation's evolution.",
+      "final_translated": "Artificial intelligence, useful but also dangerous, played a critical role in the development of the fund.",
+      "cosine_distance": 0.21702325344085693
     },
     {
       "index": 23,
-      "original": "Interstellar commerce flourished, linking worlds in a vast network of trade and exchange.",
-      "final_translated": "The flourishing of the stars between payments, an interconnected system of payment correction and exchange channels.",
-      "cosine_distance": 0.5540366172790527
+      "original": "Interstellar espionage and subterfuge threatened to undermine the Foundation's carefully laid plans.",
+      "final_translated": "For the planned and camouflaged interstellar threat, they threatened to undermine the carefully planned projects of the Foundation.",
+      "cosine_distance": 0.14901310205459595
     },
     {
       "index": 24,
-      "original": "Forgotten ruins held the keys to ancient technologies, their secrets unlocking untold power.",
-      "final_translated": "The forgotten ruins hid the keys to ancient technologies, their secrets unleashed unprecedented power.",
-      "cosine_distance": 0.08092617988586426
+      "original": "The Foundation's reliance on technology made it vulnerable to cyber-attacks and system failures.",
+      "final_translated": "The fund's reliance on technology has made it vulnerable to cyber attacks and system failures.",
+      "cosine_distance": 0.14954686164855957
     },
     {
       "index": 25,
-      "original": "Xenobiologists studied the vast diversity of life across the galaxy, uncovering wonders and terrors.",
-      "final_translated": "Alien biologists have studied the vast diversity of life across the galaxy, discovering marvels and horrors.",
-      "cosine_distance": 0.18461155891418457
+      "original": "The discovery of ancient alien artifacts challenged the Foundation's understanding of its own history.",
+      "final_translated": "The discovery of ancient alien artifacts has shaken the institution's understanding of its own history.",
+      "cosine_distance": 0.17686808109283447
     },
     {
       "index": 26,
-      "original": "Clashing ideologies threatened to tear the Foundation apart, as factions vied for ideological dominance.",
-      "final_translated": "Ideological struggles threatened to divide the fund, as various parties fought for ideological control.",
-      "cosine_distance": 0.39261382818222046
+      "original": "Terraforming projects transformed barren planets into habitable worlds for the Foundation's expanding population.",
+      "final_translated": "The plans for the redesign of Planet Earth transformed the raw planets into worlds habitable for the growing population of the Federation.",
+      "cosine_distance": 0.2909223437309265
     },
     {
       "index": 27,
-      "original": "The search for humanity's origins consumed the brightest minds, a quest to unlock the past.",
-      "final_translated": "The genealogy of humanity occupied the thoughts of the wisest, a task of discovering the past.",
-      "cosine_distance": 0.27916842699050903
+      "original": "The Foundation's interactions with mysterious alien civilizations led to unexpected cultural exchanges.",
+      "final_translated": "The interactions of the Foundation with the mysterious divine cultures led to unexpected cultural exchanges.",
+      "cosine_distance": 0.2680896520614624
     },
     {
       "index": 28,
-      "original": "Artificial habitats and terraformed worlds emerged, expanding the reach of human civilization.",
-      "final_translated": "Artificial habitats and terraformed worlds have developed, expanding the domain of human culture.",
-      "cosine_distance": 0.15819883346557617
+      "original": "The Foundation's leaders grappled with the ethical dilemmas of technological advancement and societal change.",
+      "final_translated": "The foundation's leaders grappled with the ethical dilemmas of technological advancement and social change.",
+      "cosine_distance": 0.011059880256652832
     },
     {
       "index": 29,
-      "original": "Dissidents and revolutionaries challenged the status quo, their actions rippling through the fabric of society.",
-      "final_translated": "The local pressures of the rebels and the authorities.",
-      "cosine_distance": 0.5844796895980835
+      "original": "The Foundation's scientific breakthroughs in fields like nanomedicine held the key to humanity's future.",
+      "final_translated": "The scientific advances of the Foundation in fields such as nanomedecine were the key to the future of humanity.",
+      "cosine_distance": 0.08001172542572021
     },
     {
       "index": 30,
-      "original": "Gargantuan construction projects reshaped the face of planets, monuments to the Foundation's engineering prowess.",
-      "final_translated": "Massive construction transformed the face of the stars, monuments to the engineering skills of the Foundation.",
-      "cosine_distance": 0.2108951210975647
+      "original": "Interstellar corporations wielded immense power, rivaling the influence of the Foundation itself.",
+      "final_translated": "The gravitational forces of the stellar companions are powerful, acting in opposition to the influence of the radiation itself.",
+      "cosine_distance": 0.6597472429275513
     },
     {
       "index": 31,
-      "original": "Quantum entanglement enabled instantaneous communication, breaking the limitations of light-speed transmission.",
-      "final_translated": "The breakdown of the speed of light constraints with quantum organization enabled",
-      "cosine_distance": 0.3869490623474121
+      "original": "The Foundation's efforts to preserve knowledge and culture faced resistance from those seeking to erase the past.",
+      "final_translated": "The need of the foundation to preserve knowledge and culture faced opposition from those who sought to erase the past.",
+      "cosine_distance": 0.11890500783920288
     },
     {
       "index": 32,
-      "original": "Bioengineered super-soldiers emerged, their enhanced abilities reshaping the dynamics of galactic warfare.",
-      "final_translated": "The super-soldiers known as the Bionics rose, their enhanced capabilities reshaping the dynamics of the galactic war.",
-      "cosine_distance": 0.1585468053817749
+      "original": "The Empire's twilight heralded a new dawn of limitless possibility for the Foundation.",
+      "final_translated": "The fall of the empire brought an unlimited rise of opportunities for the Fund.",
+      "cosine_distance": 0.4862971901893616
     },
     {
       "index": 33,
-      "original": "The Foundation's cultural influence spread, its ideas and values taking root across the galaxy.",
-      "final_translated": "The cultural influence of the Foundation spread, its ideas and values ruled the entire galaxy.",
-      "cosine_distance": 0.10357159376144409
+      "original": "Psychohistory charted the course of civilizations, guiding humanity's destiny with uncanny foresight.",
+      "final_translated": "Psychohistory created the course of civilizations, masterfully guides the destiny of humanity with exceptional vision.",
+      "cosine_distance": 0.10001057386398315
     },
     {
       "index": 34,
-      "original": "Mentalics and psychic phenomena blurred the lines between science and the supernatural.",
-      "final_translated": "Psychological and cognitive phenomena blur the boundaries between science and the mystical.",
-      "cosine_distance": 0.2458343505859375
+      "original": "Hari Seldon's legacy endured, a beacon of reason amidst the chaos of galactic upheaval.",
+      "final_translated": "The continuity of Harry Seldon's legacy, a beacon of reason in the center of galactic alienation.",
+      "cosine_distance": 0.18798476457595825
     },
     {
       "index": 35,
-      "original": "Galactic dynasties rose and fell, their legacies echoing through the annals of history.",
-      "final_translated": "Galactic empires have risen and fallen, their legacies echoing through the pages of history.",
-      "cosine_distance": 0.15015852451324463
+      "original": "Across the Outer Realms, enclaves of scientists and philosophers sought to preserve knowledge.",
+      "final_translated": "Among the foreign kingdoms, communities of scholars and philosophers sought to preserve knowledge.",
+      "cosine_distance": 0.27716749906539917
     },
     {
       "index": 36,
-      "original": "Interstellar travel became commonplace, as humanity explored the vastness of the cosmos.",
-      "final_translated": "Psychopathic tendencies have become commonplace, with the dissemination of human technophilia across the digital domain.",
-      "cosine_distance": 0.7602335214614868
+      "original": "Mentalics wielded the power of the mind, unlocking secrets that defied natural laws.",
+      "final_translated": "Mentalists mastered the power of the mind, uncovering secrets that shook the laws of nature.",
+      "cosine_distance": 0.18502956628799438
     },
     {
       "index": 37,
-      "original": "Vast automated factories churned out technological marvels, powering the Foundation's relentless advancement.",
-      "final_translated": "The automated production of large factories created technological marvels that drove the relentless progress of the fund.",
-      "cosine_distance": 0.19509339332580566
+      "original": "Trantor's fall signaled the collapse of an epoch, paving the way for rebirth.",
+      "final_translated": "The prayer of the Pyramid of Tarantul marked the collapse of that era, paving the way for a revival.",
+      "cosine_distance": 0.5513850450515747
     },
     {
       "index": 38,
-      "original": "Alien civilizations struggled to comprehend the Foundation's rapid progress, their cultures adapting or collapsing.",
-      "final_translated": "The alien Ladim have learned to understand the rapid advancement of the ray, complementing or collapsing their cultures.",
-      "cosine_distance": 0.44612157344818115
+      "original": "The Mule's uncanny abilities threatened to unravel the fabric of the Foundation's plans.",
+      "final_translated": "The questioning of the forces of the mole threatened to disrupt the Fundation's action plan.",
+      "cosine_distance": 0.6588990688323975
     },
     {
       "index": 39,
-      "original": "Rogue AIs threatened to seize control, their inscrutable motives challenging the Foundation's core values.",
-      "final_translated": "The rogue AI threatened to seize control, their mysterious motivations challenged the core values of the foundation.",
-      "cosine_distance": 0.07442128658294678
+      "original": "Golan Trevize's fateful decision would shape the future of humankind for millennia to come.",
+      "final_translated": "The critical approval of Golan Trevize will shape the future of humanity for centuries.",
+      "cosine_distance": 0.1607508659362793
     },
     {
       "index": 40,
-      "original": "Terraforming techniques transformed barren worlds, unlocking vast resources and new frontiers for human expansion.",
-      "final_translated": "The transfiguration transformed pictorial worlds, unlocking vast resources and new frontiers for the expansion of humanity.",
-      "cosine_distance": 0.4193185567855835
+      "original": "Remnants of the old order clung to power, resisting the inevitable march of progress.",
+      "final_translated": "Traditions of the ancient order held sway, resisting the uncompromising march of progress.",
+      "cosine_distance": 0.24705898761749268
     },
     {
       "index": 41,
-      "original": "Galactic migrations reshaped the demographics of worlds, as people sought new opportunities and destinies.",
-      "final_translated": "The galactic migratory processes have reshaped the demographics of the worlds, as people sought new opportunities and destinations.",
-      "cosine_distance": 0.06659859418869019
+      "original": "The Seldon Plan, a blueprint for the reconstitution of civilization, guided the Foundation's rise.",
+      "final_translated": "The Shaldon axis, a master plan for cultural restoration, led to the rise of this place.",
+      "cosine_distance": 0.3381243944168091
     },
     {
       "index": 42,
-      "original": "Cryogenic freezing enabled interstellar voyages, as explorers sought to uncover the galaxy's deepest secrets.",
-      "final_translated": "Cryogenic ice core sampling has made interstellar travel possible, as researchers sought to uncover the deepest secrets of the galaxy.",
-      "cosine_distance": 0.25386935472488403
+      "original": "Mutants and androids, products of technological advancement, became pawns in the galactic power struggle.",
+      "final_translated": "Mutants and androids, the products of technological advancement, have become soldiers in the battle for galactic power.",
+      "cosine_distance": 0.14167797565460205
     },
     {
       "index": 43,
-      "original": "Holograms and virtual reality blurred the lines between the physical and digital realms.",
-      "final_translated": "Virtual reality and holograms have blurred the boundaries between the physical and digital worlds.",
-      "cosine_distance": 0.05401432514190674
+      "original": "Mayors and Mayors-General navigated the treacherous waters of political intrigue and manipulation.",
+      "final_translated": "The leaders of the city and the general leaders waded in the waters of deception and political manipulation.",
+      "cosine_distance": 0.2413821816444397
     },
     {
       "index": 44,
-      "original": "Quantum computing ushered in an era of unprecedented problem-solving and data processing capabilities.",
-      "final_translated": "Quantum computing has ushered in an era of unprecedented problem-solving and data management capabilities.",
-      "cosine_distance": 0.04967218637466431
+      "original": "Traders and merchants, the lifeblood of the Foundation, forged alliances and conquered new markets.",
+      "final_translated": "Merchants and winemakers, the vital arteries of the fund, forged a covenant and conquered new markets.",
+      "cosine_distance": 0.21550768613815308
     },
     {
       "index": 45,
-      "original": "Planetary shields and defensive networks safeguarded worlds from the threats of the cosmos.",
-      "final_translated": "Stellar shields and defense networks protected the worlds from cosmic threats.",
-      "cosine_distance": 0.13796192407608032
+      "original": "The Encyclopedia Galactica, a repository of human knowledge, became a coveted prize.",
+      "final_translated": "The Galactic Encyclopedia has become a sought-after resource.",
+      "cosine_distance": 0.24846476316452026
     },
     {
       "index": 46,
-      "original": "Genetic engineering",
-      "final_translated": "Genetic engineering",
-      "cosine_distance": 0.0
+      "original": "Distant worlds harbored secrets that could unravel the very foundations of the Foundation.",
+      "final_translated": "The remote descendants have exhausted the secrets that may remove the very foundations of surrogacy.",
+      "cosine_distance": 0.5454331040382385
+    },
+    {
+      "index": 47,
+      "original": "Spaceship captains, skilled navigators, charted the unknown reaches of the galactic expanse.",
+      "final_translated": "Commanders of spaceships, experienced navigators, mapped the unknown realms of galactic expansion.",
+      "cosine_distance": 0.2390168309211731
+    },
+    {
+      "index": 48,
+      "original": "Robotic servants, programmed to serve, became silent witnesses to the drama of humankind.",
+      "final_translated": "Robots serving, programmed to serve, have become silent witnesses to the drama of humanity.",
+      "cosine_distance": 0.10940045118331909
+    },
+    {
+      "index": 49,
+      "original": "Clashing ideologies, scientific and religious, threatened to tear the Foundation apart from within.",
+      "final_translated": "The conflicting ideologies, scientific and religious, threatened to tear the horn from within.",
+      "cosine_distance": 0.34822148084640503
+    },
+    {
+      "index": 50,
+      "original": "The hunt for the legendary Second Foundation sparked a galaxy-wide quest for supremacy.",
+      "final_translated": "The process of refining the literary majesty.",
+      "cosine_distance": 0.7674344778060913
+    },
+    {
+      "index": 51,
+      "original": "Arcadia, a world of scholars and thinkers, became a bastion of intellectual freedom.",
+      "final_translated": "Arcadia, a world of sages and thinkers, has become a fortress of spiritual freedom.",
+      "cosine_distance": 0.1973286271095276
+    },
+    {
+      "index": 52,
+      "original": "The Mule's reign of terror cast a long shadow over the Foundation's future.",
+      "final_translated": "The terror of the mob cast a long shadow over the future of the Fund.",
+      "cosine_distance": 0.35649627447128296
+    },
+    {
+      "index": 53,
+      "original": "Genetic engineers manipulated the very building blocks of life, shaping the course of evolution.",
+      "final_translated": "Genetic engineers manipulate the very basic building blocks of life, designing the course of evolution.",
+      "cosine_distance": 0.07026588916778564
+    },
+    {
+      "index": 54,
+      "original": "Planetary governors, wielding authority over their domains, jockeyed for influence in the new order.",
+      "final_translated": "The celestial rulers, exercising authority over their territories, fought for influence in the new order.",
+      "cosine_distance": 0.2991923689842224
+    },
+    {
+      "index": 55,
+      "original": "Rogue scientists, driven by ambition or madness, sought to unlock the secrets of the mind.",
+      "final_translated": "He was the outcast masses, driven by aspiration or frenzy, who sought to uncover the secrets of the mind.",
+      "cosine_distance": 0.4346233606338501
+    },
+    {
+      "index": 56,
+      "original": "Smugglers and black-market traders flourished in the cracks of the collapsing empire.",
+      "final_translated": "The parties involved in illegal trafficking and the black market flourished in the cracks of the collapsing empire.",
+      "cosine_distance": 0.16654342412948608
+    },
+    {
+      "index": 57,
+      "original": "Colonists, seeking new horizons, ventured forth to establish outposts on distant worlds.",
+      "final_translated": "The settlers, in search of new horizons, dared to establish outposts in distant worlds.",
+      "cosine_distance": 0.151985764503479
+    },
+    {
+      "index": 58,
+      "original": "The Foundation's growing power and influence sparked envy and resentment among rival factions.",
+      "final_translated": "The growing influence and power of the fund aroused envy and anger among the rival factions.",
+      "cosine_distance": 0.17288923263549805
+    },
+    {
+      "index": 59,
+      "original": "Holographic simulations, indistinguishable from reality, became tools of deception and manipulation.",
+      "final_translated": "The holographic simulations, indistinguishable from reality, have become tools for fraud and manipulation.",
+      "cosine_distance": 0.10879248380661011
+    },
+    {
+      "index": 60,
+      "original": "Cybernetic implants, blurring the line between man and machine, transformed the human condition.",
+      "final_translated": "Between man and machine, the transformation of the human condition.",
+      "cosine_distance": 0.35934239625930786
+    },
+    {
+      "index": 61,
+      "original": "Remnants of ancient civilizations, buried beneath the sands of time, held untold secrets.",
+      "final_translated": "Friends of ancient cultures, buried under the sands of time, held countless secrets.",
+      "cosine_distance": 0.19660145044326782
+    },
+    {
+      "index": 62,
+      "original": "The search for the mythical \"Terminus\" consumed the ambitions of countless explorers and adventurers.",
+      "final_translated": "The mythic \"Terminus\" mourning of the lost found the desires of many of the seekers and healers.",
+      "cosine_distance": 0.36004501581192017
+    },
+    {
+      "index": 63,
+      "original": "The mighty Empire crumbled, giving rise to the Foundation's promise of a new galactic order.",
+      "final_translated": "The rule of the Empire collapsed, paving the way for the establishment of a new Galactic order.",
+      "cosine_distance": 0.21925359964370728
+    },
+    {
+      "index": 64,
+      "original": "Hari Seldon's psychohistory foretold the coming darkness, prompting the establishment of a scientific sanctuary.",
+      "final_translated": "The psychosomatic medicine of Harry Seldon predicted the coming darkness, which led to the establishment of a scientific temple.",
+      "cosine_distance": 0.19971024990081787
+    },
+    {
+      "index": 65,
+      "original": "Cleon I, the last Emperors, grasped desperately at the remnants of a once-mighty civilization.",
+      "final_translated": "The first clown, the last emperor, desperately clung to the remnants of a once powerful civilization.",
+      "cosine_distance": 0.4382171034812927
+    },
+    {
+      "index": 66,
+      "original": "Salvor Hardin navigated the treacherous political landscape, leveraging reason and cunning to ensure the Foundation's survival.",
+      "final_translated": "The political landscape is rugged and challenging, and the leader skillfully navigates it, leveraging intelligence and cunning to ensure the survival of the established order.",
+      "cosine_distance": 0.40628379583358765
+    },
+    {
+      "index": 67,
+      "original": "The Seldon Plan unfolded, guiding the Foundation through cycles of chaos and technological advancement.",
+      "final_translated": "The plan of Seldon unfolded and laid the Foundation along the cycles of confusion and technological progress.",
+      "cosine_distance": 0.10987955331802368
+    },
+    {
+      "index": 68,
+      "original": "Terminus, a bastion of scientific progress, became the focal point of galactic upheaval.",
+      "final_translated": "The center of calculations, a spirit of scientific innovation, has become a center for galactic confrontations.",
+      "cosine_distance": 0.5471810102462769
+    },
+    {
+      "index": 69,
+      "original": "The elusive Mule, a mutant with uncanny powers, threatened to derail the Seldon Plan.",
+      "final_translated": "The hesitating subversive, a mutant with extraordinary powers, was threatening to deviate from Seldon's plan.",
+      "cosine_distance": 0.34005481004714966
+    },
+    {
+      "index": 70,
+      "original": "The Mayors of Terminus wielded influence and authority, shaping the destiny of the Foundation.",
+      "final_translated": "The archangels Terminus exerted influence and authority, and created the fate of the fundamental.",
+      "cosine_distance": 0.5033544301986694
+    },
+    {
+      "index": 71,
+      "original": "Arcadia Darell, a brilliant mathematician, uncovered the secrets of psychohistory and the Seldon Plan.",
+      "final_translated": "Arcadia Darel, a brilliant mathematician, uncovered the secrets of psychohistory and the Seldon plan.",
+      "cosine_distance": 0.015224754810333252
+    },
+    {
+      "index": 72,
+      "original": "The Foundation's trading empire expanded, forging economic and political alliances across the fragmented galaxy.",
+      "final_translated": "The commercial empire of the Foundation expanded, creating an economic and political alliance across the fractured galaxy.",
+      "cosine_distance": 0.11162960529327393
+    },
+    {
+      "index": 73,
+      "original": "Bel Riose, the ambitious Imperial general, sought to crush the upstart Foundation and its ambitions.",
+      "final_translated": "Charismatic but ruthless, the Imperial military commander turned the battle into the new foundation of the element.",
+      "cosine_distance": 0.6074992418289185
+    },
+    {
+      "index": 74,
+      "original": "Terminus became a beacon of knowledge and reason, drawing scholars and visionaries from all corners.",
+      "final_translated": "The heat of knowledge and reason have turned Terminus into a beacon, attracting researchers and thinkers from all directions.",
+      "cosine_distance": 0.2587905526161194
+    },
+    {
+      "index": 75,
+      "original": "The Encyclopedists, custodians of the Foundation's vast repository of knowledge, guided its technological progress.",
+      "final_translated": "To the encyclopedists, the guardians of the vast repository of the Foundation's knowledge, they guided their technological advancement.",
+      "cosine_distance": 0.0881691575050354
+    },
+    {
+      "index": 76,
+      "original": "The Traders, a cunning and adaptable class, leveraged their commercial prowess to advance the Foundation's interests.",
+      "final_translated": "The traders, a smart and adaptable class, utilized their commercial expertise to advance the interests of the fund.",
+      "cosine_distance": 0.15176671743392944
+    },
+    {
+      "index": 77,
+      "original": "The Militants, a faction driven by military might, challenged the pacifist ethos of the Foundation.",
+      "final_translated": "The military movement, a factor driven by military power, challenged the pacifist ethos of the foundation.",
+      "cosine_distance": 0.17754435539245605
+    },
+    {
+      "index": 78,
+      "original": "Terminus grappled with the rise of religious dogma, as the Priestly Caste threatened its scientific foundations.",
+      "final_translated": "The terminus fought against the rise of the religious example, since the priestly status threatened its scientific basis.",
+      "cosine_distance": 0.2210712432861328
+    },
+    {
+      "index": 79,
+      "original": "The Foundation's reliance on the Seldon Plan was tested by the unexpected appearance of the Mule.",
+      "final_translated": "And the unexpected appearance of the disturbance was examined by the Steel Foundation that Sheldon stood in.",
+      "cosine_distance": 0.5287154316902161
+    },
+    {
+      "index": 80,
+      "original": "The Mule's ability to manipulate emotions and control the minds of others posed a grave threat.",
+      "final_translated": "The ability of the manipulator to control emotions and consciousness of others was a serious threat.",
+      "cosine_distance": 0.45266664028167725
+    },
+    {
+      "index": 81,
+      "original": "Terminus faced a crisis of faith as the Seldon Plan seemed to falter in the face of the Mule's onslaught.",
+      "final_translated": "The systems manager should strengthen the data security measures against the threat of data breach.",
+      "cosine_distance": 0.9598701596260071
+    },
+    {
+      "index": 82,
+      "original": "The Foundation's leaders, guided by Hari Seldon's vision, navigated the treacherous political and social landscapes.",
+      "final_translated": "The Keren leadership movement, led by the vision of Harry Selden, navigated through dangerous political and social landscapes.",
+      "cosine_distance": 0.5129157900810242
+    },
+    {
+      "index": 83,
+      "original": "Arkady Darell, a brilliant strategist, devised innovative ways to counter the Mule's formidable mental abilities.",
+      "final_translated": "Arkadi Darel, a brilliant strategist, devised innovative ways to deal with the impressive cognitive capabilities of the adversary.",
+      "cosine_distance": 0.28162479400634766
+    },
+    {
+      "index": 84,
+      "original": "The Foundation's scientific and technological prowess became a beacon of hope in a chaotic galaxy.",
+      "final_translated": "The institution's scientific and technological expertise has become a beacon of hope in a chaotic galaxy.",
+      "cosine_distance": 0.2269359827041626
+    },
+    {
+      "index": 85,
+      "original": "The Mule's reign of terror was eventually challenged by the emergence of a mysterious Second Foundation.",
+      "final_translated": "The tyrannical reign of Muloc finally yielded to the rise of a second mysterious force.",
+      "cosine_distance": 0.5483185052871704
+    },
+    {
+      "index": 86,
+      "original": "The Second Foundation, keepers of the Seldon Plan, sought to guide the galaxy towards a new era of stability.",
+      "final_translated": "The Second Kingdom's guardians, the Seldonian Covenant, sought to guide the galaxy toward a new era of stability.",
+      "cosine_distance": 0.2872425317764282
+    },
+    {
+      "index": 87,
+      "original": "Terminus became a center of interstellar trade and cultural exchange, enriching the lives of its citizens.",
+      "final_translated": "The terminus became a center of interstellar commerce and cultural exchange, invigorating the lives of its citizens.",
+      "cosine_distance": 0.04358416795730591
+    },
+    {
+      "index": 88,
+      "original": "The Foundation's commitment to reason and scientific progress faced ongoing challenges from religious and political factions.",
+      "final_translated": "The foundation's commitment to science and progress has faced ongoing challenges from religious and political forces.",
+      "cosine_distance": 0.06877005100250244
+    },
+    {
+      "index": 89,
+      "original": "Hari Seldon's vision of a Second Galactic Empire, built upon the ashes of the old, inspired the Foundation's leaders.",
+      "final_translated": "The charter of the Epicurus Seldon of the Second Galactic Empire, built upon the ruins of the old, entrenched the leaders of the Foundation.",
+      "cosine_distance": 0.2589157223701477
+    },
+    {
+      "index": 90,
+      "original": "The search for the elusive Second Foundation became a high-stakes game of intrigue and deception.",
+      "final_translated": "The period of searching for a second hidden foundation has become a complex and dangerous game of fraud and deception.",
+      "cosine_distance": 0.19432663917541504
+    },
+    {
+      "index": 91,
+      "original": "The Foundation's leaders grappled with the moral dilemmas posed by the Seldon Plan and its consequences.",
+      "final_translated": "The senior members of the fund grappled with the moral dilemmas raised by the Sheldon plan and its consequences.",
+      "cosine_distance": 0.3958127498626709
+    },
+    {
+      "index": 92,
+      "original": "Terminus, a bastion of knowledge and innovation, served as a rallying point for those seeking a brighter future.",
+      "final_translated": "Terminus, a fortress of knowledge and innovation, served as a meeting point for those seeking a brighter future.",
+      "cosine_distance": 0.08205801248550415
+    },
+    {
+      "index": 93,
+      "original": "The Foundation's expansion and technological advancements transformed the social and political landscape of the galaxy.",
+      "final_translated": "The expansion of the Foundation and technological progress have changed the social and political structure of the Galaxy.",
+      "cosine_distance": 0.10146433115005493
+    },
+    {
+      "index": 94,
+      "original": "The clash between the Foundation and the Mule's empire highlighted the fragility of even the most carefully laid plans.",
+      "final_translated": "The encounter between the Fund and the Molay Empire highlighted the fragility even of the most carefully planned programs.",
+      "cosine_distance": 0.3680001497268677
+    },
+    {
+      "index": 95,
+      "original": "The vast, interstellar empire crumbled, giving rise to a new age of uncertainty and rebirth.",
+      "final_translated": "A period of fermentation and rebirth opened new signs after the collapse of the great interstellar empire.",
+      "cosine_distance": 0.3381730914115906
+    },
+    {
+      "index": 96,
+      "original": "Psychohistory predicted the fall, yet its course remained shrouded in the mists of time.",
+      "final_translated": "The psychological history foresaw the fall, but its course remains shrouded in the mist of time.",
+      "cosine_distance": 0.18431919813156128
+    },
+    {
+      "index": 97,
+      "original": "Hari Seldon's plan unfolded, guiding humanity through the chaos toward a brighter, more stable future.",
+      "final_translated": "It was developing, guiding humanity through chaos towards a brighter and more stable future.",
+      "cosine_distance": 0.3819528818130493
+    },
+    {
+      "index": 98,
+      "original": "Trantor, the galactic capital, decayed as the center no longer held, scattering its people to the stars.",
+      "final_translated": "Trantor, the being of the galaxy, disintegrated as the concentration could no longer withstand, and scattered its people among the stars.",
+      "cosine_distance": 0.18819785118103027
+    },
+    {
+      "index": 99,
+      "original": "Across the galaxy, enclaves of knowledge and technology preserved the light of civilization in the dark.",
+      "final_translated": "The Galactic Way, enclaves of knowledge and technology kept the light of culture in the darkness.",
+      "cosine_distance": 0.1392330527305603
+    },
+    {
+      "index": 100,
+      "original": "The Foundation's journey, fraught with challenges and setbacks, ultimately led to the restoration of a galactic order.",
+      "final_translated": "The process of maintaining the Foundation, full of challenges and failures, ultimately led to the restoration of the galactic order.",
+      "cosine_distance": 0.11389756202697754
     }
   ]
 }

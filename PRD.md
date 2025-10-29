@@ -302,13 +302,15 @@ Quality Metrics & Visualization
   - `evaluation_metrics.json` - Statistical results
   - `evaluation_plot.png` - Visualization (300 DPI)
   - `translation_results.json` - All sentence pairs with distances
+  - `translation_results.csv` - Indexed sentence pairs (Excel-friendly)
 - Interactive plot display (matplotlib window)
 
 **Acceptance Criteria:**
 - ✅ All results printed to console
-- ✅ Three files created with correct data
+- ✅ Four files created with correct data
 - ✅ Plot displayed in window
 - ✅ Files saved in working directory
+- ✅ CSV file opens correctly in Excel/Google Sheets
 
 ---
 
@@ -409,7 +411,8 @@ comments, or additional text whatsoever.
 
 1. `evaluation_metrics.json` - Statistical metrics
 2. `evaluation_plot.png` - Visualization
-3. `translation_results.json` - All translation pairs
+3. `translation_results.json` - All translation pairs with cosine distances
+4. `translation_results.csv` - Indexed sentence pairs (Excel-friendly)
 
 ---
 

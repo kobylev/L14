@@ -1,5 +1,6 @@
 import os
 import json
+import csv
 from dotenv import load_dotenv
 from typing import List, Tuple
 from agent_english_spanish import english_spanish_translator
@@ -7,6 +8,7 @@ from agent_spanish_hebrew import spanish_hebrew_translator
 from agent_hebrew_english import hebrew_english_translator
 from agent_sentences_creator import sentences_creator
 from agent_evaluation import evaluate_translation_quality
+import matplotlib
 import matplotlib.pyplot as plt
 
 
@@ -22,6 +24,7 @@ def run_pipeline_save_and_display(api_key: str, num_sentences: int = 100):
     - evaluation_metrics.json: Statistical results
     - evaluation_plot.png: Visualization
     - translation_results.json: All translation pairs
+    - translation_results.csv: All translation pairs in CSV format
     """
 
     print("=" * 70)
@@ -38,27 +41,41 @@ def run_pipeline_save_and_display(api_key: str, num_sentences: int = 100):
         sentence_count += 1
         print(f"[{sentence_count}/{num_sentences}] Processing...")
 
-        spanish_output = english_spanish_translator(original_sentence, api_key)
-        hebrew_output = spanish_hebrew_translator(spanish_output, api_key)
-        final_english_output = hebrew_english_translator(hebrew_output, api_key)
+        try:
+            spanish_output = english_spanish_translator(original_sentence, api_key)
+            hebrew_output = spanish_hebrew_translator(spanish_output, api_key)
+            final_english_output = hebrew_english_translator(hebrew_output, api_key)
 
-        translation_results.append((original_sentence, final_english_output))
-        print(f"Original: {original_sentence} | Final: {final_english_output}")
+            translation_results.append((original_sentence, final_english_output))
+            print(f"Original: {original_sentence} | Final: {final_english_output}")
+        except Exception as e:
+            print(f"ERROR on sentence {sentence_count}: {str(e)}")
+            continue
 
     print(f"\n" + "=" * 70)
     print(f"Translation Pipeline Complete: {sentence_count} sentences")
     print("=" * 70)
     print()
 
-    # Run evaluation (this will print metrics AND display plot)
+    # Save sentence pairs to CSV immediately
+    csv_filename = 'translation_results.csv'
+    with open(csv_filename, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.writer(f)
+        writer.writerow(['Index', 'Original English', 'Final Re-translated English'])
+        for idx, (orig, final) in enumerate(translation_results, 1):
+            writer.writerow([idx, orig, final])
+    print(f"✓ CSV saved: {csv_filename}\n")
+
+    # Run evaluation
     print("Starting Evaluation Agent...\n")
     evaluation_metrics = evaluate_translation_quality(translation_results)
 
-    # After the plot is displayed, save it
-    print("\nSaving results to files...")
+    # IMPORTANT: Save the plot BEFORE closing or showing it
+    print("\nSaving plot to file...")
 
-    # Recreate and save the plot
-    plt.savefig('evaluation_plot.png', dpi=300, bbox_inches='tight')
+    # Get the current figure and save it explicitly
+    current_fig = plt.gcf()
+    current_fig.savefig('evaluation_plot.png', dpi=300, bbox_inches='tight', facecolor='white')
     print(f"✓ Plot saved: evaluation_plot.png")
 
     # Save metrics to JSON
@@ -107,6 +124,7 @@ def run_pipeline_save_and_display(api_key: str, num_sentences: int = 100):
     print("1. evaluation_metrics.json    - Statistical metrics")
     print("2. evaluation_plot.png        - Visualization (high-res)")
     print("3. translation_results.json   - All sentence pairs with distances")
+    print("4. translation_results.csv    - All sentence pairs (CSV format)")
     print("=" * 70)
 
     return translation_results, evaluation_metrics

@@ -25,8 +25,10 @@ ENV/
 
 # Generated output files (results from pipeline runs)
 # Note: evaluation_plot.png is committed as sample output for documentation
+# Other output files are commented out to include in git for assignment submission
 # evaluation_metrics.json
-#translation_results.json
+# translation_results.json
+# translation_results.csv
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/

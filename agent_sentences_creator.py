@@ -47,12 +47,22 @@ def sentences_creator(api_key: str, count: int = 100) -> Generator[str, None, No
         "Output ONLY the sentences, one per line, with no numbering, explanations, or additional text."
     )
 
-    user_prompt = f"Generate exactly {count} diverse English sentences inspired by 'Foundation' by Isaac Asimov. Each sentence must be between 10-20 words."
+    sentences_generated = 0
+    batch_size = 50  # Generate in batches to ensure we get all sentences
 
-    response = call_claude_agent(user_prompt, system_prompt, api_key)
+    while sentences_generated < count:
+        remaining = count - sentences_generated
+        batch_count = min(batch_size, remaining)
 
-    # Split response into individual sentences and yield them
-    sentences = [s.strip() for s in response.split('\n') if s.strip()]
+        user_prompt = f"Generate exactly {batch_count} diverse English sentences inspired by 'Foundation' by Isaac Asimov. Each sentence must be between 10-20 words."
 
-    for sentence in sentences[:count]:  # Ensure we don't exceed requested count
-        yield sentence
+        response = call_claude_agent(user_prompt, system_prompt, api_key)
+
+        # Split response into individual sentences
+        sentences = [s.strip() for s in response.split('\n') if s.strip()]
+
+        for sentence in sentences[:batch_count]:
+            yield sentence
+            sentences_generated += 1
+            if sentences_generated >= count:
+                break
