@@ -492,16 +492,16 @@ Complete dataset with all sentence pairs:
 
 ### 4. `translation_results.csv`
 
-Excel-friendly CSV file with indexed sentence pairs:
+Excel-friendly CSV file with indexed sentence pairs and cosine distances:
 
 ```csv
-Index,Original English,Final Re-translated English
-1,"The Galactic Empire spanned millions...","The galactic empire spanned millions..."
-2,"Hari Seldon foresaw the fall...","Hari Seldon predicted the fall..."
+Index,Original English,Final Re-translated English,Cosine Distance
+1,"The Galactic Empire spanned millions...","The galactic empire spanned millions...",0.002842
+2,"Hari Seldon foresaw the fall...","Hari Seldon predicted the fall...",0.045123
 ...
 ```
 
-Perfect for opening in Excel, Google Sheets, or any spreadsheet application.
+Perfect for opening in Excel, Google Sheets, or any spreadsheet application. Includes cosine distance for easy analysis and sorting.
 
 ---
 

@@ -57,14 +57,8 @@ def run_pipeline_save_and_display(api_key: str, num_sentences: int = 100):
     print("=" * 70)
     print()
 
-    # Save sentence pairs to CSV immediately
+    # Save sentence pairs to CSV (will add cosine distances after evaluation)
     csv_filename = 'translation_results.csv'
-    with open(csv_filename, 'w', newline='', encoding='utf-8') as f:
-        writer = csv.writer(f)
-        writer.writerow(['Index', 'Original English', 'Final Re-translated English'])
-        for idx, (orig, final) in enumerate(translation_results, 1):
-            writer.writerow([idx, orig, final])
-    print(f"✓ CSV saved: {csv_filename}\n")
 
     # Run evaluation
     print("Starting Evaluation Agent...\n")
@@ -117,6 +111,15 @@ def run_pipeline_save_and_display(api_key: str, num_sentences: int = 100):
         json.dump(results_to_save, f, indent=2, ensure_ascii=False)
 
     print(f"✓ Translation results saved: translation_results.json")
+
+    # Save CSV with cosine distances
+    with open(csv_filename, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.writer(f)
+        writer.writerow(['Index', 'Original English', 'Final Re-translated English', 'Cosine Distance'])
+        for idx, (orig, final) in enumerate(translation_results):
+            cosine_dist = float(evaluation_metrics['distances'][idx])
+            writer.writerow([idx + 1, orig, final, f"{cosine_dist:.6f}"])
+    print(f"✓ CSV with distances saved: {csv_filename}")
 
     print("\n" + "=" * 70)
     print("FILES CREATED IN: " + os.getcwd())
