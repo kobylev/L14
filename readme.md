@@ -239,7 +239,8 @@ L14/
 │
 ├── ⚙️ Configuration
 │   ├── .env                         # API key (not in git)
-│   └── .gitignore                   # Git ignore rules
+│   ├── .gitignore                   # Git ignore rules
+│   └── requirements.txt             # Python dependencies
 │
 └── 📊 Insights/ (Output Directory)
     ├── ניתוח תוצאות - הסבר.md      # In-depth analysis (Hebrew)
@@ -266,7 +267,10 @@ L14/
 cd L14
 
 # Install required dependencies
-pip install anthropic sentence-transformers numpy matplotlib scipy python-dotenv
+pip install -r requirements.txt
+
+# Or install manually:
+# pip install anthropic sentence-transformers numpy matplotlib scipy python-dotenv
 
 # Create .env file with your API key
 echo "ANTHROPIC_API_KEY=your_api_key_here" > .env
@@ -566,20 +570,24 @@ matplotlib.use('TkAgg')  # or 'Qt5Agg'
 
 ## 📚 Dependencies
 
+All dependencies are listed in `requirements.txt`:
+
 ```txt
 anthropic>=0.18.0
 sentence-transformers>=5.0.0
+transformers>=4.30.0
+torch>=2.0.0
 numpy>=1.24.0
-matplotlib>=3.7.0
 scipy>=1.10.0
+matplotlib>=3.7.0
+scikit-learn>=1.2.0
 python-dotenv>=1.0.0
-torch>=2.0.0  # Required by sentence-transformers
-transformers>=4.30.0  # Required by sentence-transformers
+huggingface-hub>=0.20.0
 ```
 
 Install all with:
 ```bash
-pip install anthropic sentence-transformers numpy matplotlib scipy python-dotenv
+pip install -r requirements.txt
 ```
 
 ---
