@@ -124,16 +124,16 @@ def evaluate_translation_quality(translation_results: List[Tuple[str, str]]):
     plt.tight_layout()
 
     print("✓ Visualization complete")
-    print("\n=== Displaying plot... ===")
-    plt.show()
 
+    # Return metrics and figure (don't show yet, let caller decide)
     return {
         'mean': mean_distance,
         'variance': variance_distance,
         'std': std_distance,
         'min': min_distance,
         'max': max_distance,
-        'distances': cosine_distances
+        'distances': cosine_distances,
+        'figure': fig  # Return the figure object for saving
     }
 
 

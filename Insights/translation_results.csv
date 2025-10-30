@@ -1,0 +1,103 @@
+Index,Original English,Final Re-translated English,Cosine Distance
+1,"The Empire's vast bureaucracy crumbled, leaving the galaxy in disarray.","The vast bureaucratic apparatus of the Empire has collapsed, leaving the galaxy in disarray.",0.135962
+2,"Psychohistory predicted the inevitable collapse, but the path forward remained uncertain.","Historical psychology predicted the inevitable collapse, but the way forward remained uncertain.",0.124361
+3,"Hari Seldon's hologram offered hope, guiding the remnants of humanity towards a brighter future.","The hologram of Harry Sheldon was full of hope, leading the remnants of humanity towards a brighter future.",0.274905
+4,"The Foundation, a bastion of knowledge, sought to accelerate the Second Galactic Empire's rise.","To establish a knowledge base, to facilitate the rise of the Second Galactic Empire.",0.258825
+5,"Terminus, a distant colony, became the center of a resurgent civilization.",The remote outpost has become the center of a burgeoning culture.,0.533959
+6,"Traders and merchants vied for influence, leveraging their economic power across the stars.","The inhabitants of commerce and the merchants competed for influence, exploiting their economic power through the paths of the stars.",0.152628
+7,"Cleon I, the self-proclaimed immortal Emperor, struggled to maintain his grip on power.","The immortal independent emperor, the First Clown, fought to maintain his rule by force.",0.481414
+8,"The Mule, a mutant with uncanny abilities, threatened to derail Seldon's grand plan.","Opposite him, a mutant with special abilities is interfering with Seldon's great plan.",0.316844
+9,"Salvor Hardin, the wily mayor of Terminus, navigated the political currents with cunning.","Mayor Hardeen, the cunning mayor of Terminus, skillfully navigated the political crises.",0.321656
+10,"The Seldon Plan's implementation faced unforeseen challenges, testing the resolve of its adherents.",Sheldon's program faced unexpected challenges that tested the resolve of its fans.,0.631950
+11,The Foundation's principles of science and reason clashed with the forces of irrationality.,The tactics of science and logic clashed with the irrational forces.,0.206181
+12,Technological breakthroughs and social upheavals shaped the trajectory of the burgeoning new order.,Technological forces and social disruptions have shaped the trajectory of the emerging new order.,0.137038
+13,"The Galactic Encyclopedia, a repository of knowledge, became a valuable asset in the rebuilding.",The galactic knowledge repository has become a valuable asset during the reconstruction.,0.148480
+14,Interstellar trade routes and financial networks underpinned the Foundation's growing economic might.,The financial infrastructure codes supported the growing economic power of the fund.,0.503344
+15,The remnants of the old Empire sought to undermine the Foundation's ascendancy.,The remnants of the old empire tried to weaken the rise of the New Republic.,0.348518
+16,Revolutionaries and dissidents challenged the Foundation's pragmatic approach to power and control.,Revolutionaries and opponents challenged the pragmatic approach of the Fund to power and control.,0.159801
+17,Conflict between the Foundation and its neighbors threatened to ignite a new era of war.,The confrontation between the fund and its neighbors threatens to escalate into a new period of war.,0.312908
+18,Mathematic models and predictive algorithms guided the Foundation's strategic decision-making.,The mathematical models and predictive algorithms guided the fund's strategic decision-making.,0.169445
+19,The Mule's ability to manipulate emotions posed a formidable obstacle to Seldon's vision.,The emotional manipulation ability of Mulo was a huge obstacle to Seldon's vision.,0.332767
+20,The Foundation's leaders grappled with the ethical dilemmas of wielding immense influence.,The leaders of the fund grappled with the ethical dilemmas of wielding immense influence.,0.144297
+21,Remnants of ancient civilizations held secrets that could alter the course of the galaxy.,Refugees of ancient cultures guarded secrets that could have altered the course of the galaxy.,0.212971
+22,The Foundation's focus on science and technology fueled its rapid technological advancement.,The rapid technological advancement of the foundation's scientific drive and technology.,0.138956
+23,Interstellar communication and information networks became the lifeblood of the emerging civilization.,"Immediate address:
+
+The space interaction and information networks have become the lifeblood of the growing culture.",0.326466
+24,The Foundation's adherents debated the merits of Seldon's plan and its implementation.,The trustees of the foundation discussed the merits of Sheldon's plan and its implementation.,0.441277
+25,Custodians of the Seldon Plan sought to safeguard its integrity against external threats.,The guardians of the Sheldon plan sought to ensure its integrity against external threats.,0.449593
+26,The Foundation's pragmatic approach to governance and diplomacy drew both admirers and critics.,"In the center of royal wisdom, politics and rule provoked delight and scorn alike.",0.613173
+27,Planetary systems within the Foundation's sphere of influence vied for autonomy and self-determination.,The range of stellar ranges in the sphere of influence of the Foundation for Competition in Autonomy and Self-Definition.,0.341390
+28,The Mule's ability to manipulate the minds of others created a crisis of trust.,The moral actions of the MOL in the ability to control the consciousness of others created a crisis of trust.,0.464860
+29,The Foundation's reliance on scientific principles and rational decision-making set it apart.,The fund's confidence in scientific principles and acceptance of rational decisions distinguish it.,0.290428
+30,"The Search for Earth, the mythical birthplace of humanity, became a driving obsession.","Mythical contemplation of planet Earth, the mythical birthplace of humanity, has become a fervent obsession.",0.262034
+31,The Foundation's success in rebuilding the galaxy inspired hope and resentment in equal measure.,The success of the Foundation in restoring the Shruissian Galaxy evoked both hope and resentment.,0.239427
+32,The Mule's defeat marked a pivotal moment in the Foundation's consolidation of power.,The attack on the pier marked a critical turning point in the fortification of the Foundation's power.,0.612535
+33,The Foundation's leaders grappled with the moral implications of their actions and policies.,The leaders of the fund struggled with the moral implications of their actions and policies.,0.361751
+34,The Search for Earth uncovered long-buried secrets that threatened to upend the established order.,"In the search for the land, long-buried secrets were uncovered that could disrupt the existing order.",0.163836
+35,"The Foundation's influence spread, transforming the cultural and economic landscape of the galaxy.",The Foundation has a significant cultural and economic influence in the galaxy.,0.157502
+36,The Seldon Plan's long-term vision faced challenges from those who sought immediate gratification.,The long-term plan of Seldon encountered challenges from those seeking immediate gratification.,0.069681
+37,The Foundation's embrace of technology and innovation fueled its rapid ascent to prominence.,The merger of the fund with technology and innovation drove its rapid rise to prominence.,0.251239
+38,"The Mule's legacy cast a long shadow, haunting the Foundation's leaders and their successors.","The legacy of the calf cast a long shadow, engulfing the kibbutz leaders and their heirs.",0.381774
+39,The Search for Earth's resolution revealed unexpected truths about the origins of humanity.,The search for the solution to planet Earth has revealed unexpected truths about the origins of humanity.,0.102606
+40,The Foundation's resilience in the face of adversity solidified its reputation as a bastion of stability.,The resilience of the fund against challenges strengthened its position as a stronghold of stability.,0.296029
+41,"The Empire's collapse was but a tremor, a prelude to the coming galactic upheaval.","The collapse of the empire was but a tremor, a prelude to the coming galactic upheaval.",0.007684
+42,Hari Seldon's psychohistory foretold the dark age that would engulf the known universe.,The psychohistory of Harry Seldon foretold the dark period that will engulf the known universe.,0.099261
+43,"On Terminus, the last bastion of reason, the Foundation arose to shepherd humanity's future.","So Terminus, the last citadel of reason, the Foundation has arisen to lead the future of humanity.",0.106070
+44,"Mathematics became the universal language, the key to unlocking the secrets of civilizations.","Mathematics has become the universal language, the key to deciphering the secrets of civilizations.",0.078593
+45,Salvor Hardin's pragmatic leadership guided the fledgling Foundation through its perilous early years.,The practical leadership of Salvar Hardin guided the young cart through its perilous early years.,0.330807
+46,The Mule's sudden rise to power threatened to unravel the carefully laid plans of Seldon.,And the sudden surge of power of the mole threatened to open the plans of Seldon that were built with care.,0.368115
+47,"Beneath the veneer of civilization, ancient fears and superstitions stirred, ready to consume the light.","Within the veil of civilization, the ancient fears and perceptions arose, ready to devour the light.",0.239051
+48,The search for the lost colony of Terminus led to unexpected revelations about humanity's past.,The search for the lost colony of Terminus led to unexpected discoveries about the past of humanity.,0.053388
+49,"In the Seldon Plan, the future of the galaxy hung in a delicate balance.",The fate of the galaxy hangs in a delicate balance.,0.274992
+50,The Mayors of the Foundation wielded their influence like a fine-tuned instrument of power.,The capital cities of the Fund exerted their influence as a particularly precise instrument of power.,0.359614
+51,"The science of psychohistory became a double-edged sword, both liberating and terrifying humanity.","The historical psychology discipline has become a double-edged sword, liberating and terrifying humanity.",0.185783
+52,"The Foundation's library stood as a beacon of knowledge, illuminating the path forward.","The library of the foundation was like a lighthouse for knowledge, illuminating the way forward.",0.094232
+53,"Across the far-flung reaches of the galaxy, the echoes of the Empire's fall reverberated.","Among the distant borders of the galaxy, the echoes of the fall of the Empire were heard.",0.158627
+54,"Terminus, the planet of origin, became the cornerstone of the new galactic order.","The terminator, the home star, has become the cornerstone of the new galactic order.",0.431858
+55,The Mule's ability to manipulate emotions threatened to shatter the Foundation's carefully laid plans.,To arm the emotions of the engine posed a danger to tear the plans of the cautious institution.,0.589382
+56,"The Foundation's traders became the ambassadors of reason, spreading the light of knowledge.","The traders of the fund became the ambassadors of knowledge, disseminating the light of knowledge.",0.215408
+57,Hari Seldon's holographic image became a symbol of hope and guidance for the people.,The holographic image of Harry Sheldon became a symbol of hope and guidance for the people.,0.270200
+58,The search for the elusive Second Foundation became a game of intrigue and deception.,The search for the second mysterious foundation has turned into a game of intrigue and fraud.,0.106384
+59,The Foundation's technological advancements transformed the lives of countless worlds across the galaxy.,The technological advancement of the Foundation has transformed the lives of countless worlds across the galaxy.,0.028910
+60,The Mule's conquest of the Foundation brought a new era of uncertainty and fear.,The takeover of the Mossad by the mullahs heralded a new era of uncertainty and fear.,0.454420
+61,The Foundation's library held the key to unlocking the secrets of the past.,The Foundation library holds the key to deciphering the secrets of the past.,0.082591
+62,The Mayors of the Foundation navigated a complex web of political alliances and rivalries.,The foundations' reflections navigated a complex web of alliances and political rivalries.,0.216944
+63,The Seldon Plan's enduring legacy shaped the course of galactic history for centuries.,The legacy of Seldon's work has shaped the course of galactic history for centuries.,0.070931
+64,The Foundation's traders became the harbingers of a new age of enlightenment.,The fund's merchants became the messengers of a new era of enlightenment.,0.271645
+65,The Mule's ability to control the emotions of others was both a blessing and a curse.,The ability to control the emotions of others was both a blessing and a curse.,0.236451
+66,The search for the Second Foundation became a race against time to preserve the Seldon Plan.,The search for the Second Foundation became a race against time to preserve the Seldon Plan.,0.000000
+67,The Foundation's technological advancements paved the way for a new era of prosperity.,The technological progress of the fund paved the way for a new era of prosperity.,0.150107
+68,The Mayors of the Foundation wielded their power with a delicate balance of pragmatism and vision.,The diverse aspects of public figures in municipalities are maintained in a delicate balance of pragmatism and vision.,0.428097
+69,The Seldon Plan's intricate calculations predicted the ebb and flow of civilizations across the galaxy.,The Seldonian empire foresaw the ebb and flow of civilizations across the galaxy.,0.237734
+70,"The Foundation's traders became the guardians of knowledge, spreading the light of reason.","The fund's dealers became the guardians of knowledge, disseminating the light of wisdom.",0.265677
+71,"The crumbling empire could not escape its inexorable decline, foretold by the science of psychohistory.",The empire in a state of prayer could not escape the inevitable decline foretold by the science of psycho-history.,0.179198
+72,Hari Seldon's calculations predicted the dark age that would sweep across the galaxy.,"A dark age will envelop the galaxy, according to the writings of Harry Seldon.",0.220153
+73,"Across the vastness of space, the Foundation rose from the ashes of civilization.",Maintenance of the curb from the city residue.,0.893239
+74,"Robots and humans coexisted, yet the machines followed their own inscrutable logic.","Robots and humans lived together, but the machines continued with their incomprehensible logic.",0.146346
+75,The Mule's strange mental powers threatened to unravel the delicate fabric of the plan.,The emotional and mental strengths of the donkey threatened to undermine the delicate fabric of the plan.,0.379220
+76,"Worlds clashed as factions vied for dominance, each convinced of their rightful claim.","Globes collided as the groups competed for control, each convinced of the legal claim to it.",0.305949
+77,"Traders and merchants navigated the treacherous political landscape, shaping the future with their cunning.","Merchants and traders are navigating the treacherous political path, shaping the future with their wisdom.",0.105534
+78,"The Terminus encyclopedia expanded, amassing knowledge to light the way through the coming night.","The Terminus encyclopedia has expanded, accumulating knowledge to illuminate the path through the next night.",0.089398
+79,Golan Trevize wrestled with the profound implications of the Second Foundation's hidden existence.,Golan Trevize dealt with the profound implications of the covert existence of the Second Foundation.,0.105515
+80,"Millennia passed, yet the Foundation endured, adapting and evolving to meet new challenges.","The foundation has endured for thousands of years, remaining relevant and evolving to address new challenges.",0.272542
+81,Remnants of the old empire resisted the steady progress of the Foundation's rise.,The ancient empire's graves stood before the constant advance of the rising horn.,0.627831
+82,Obscure prophecies and ancient mysteries guided the path of the chosen few.,Arcane prophecies and ancient secrets guided the path of the chosen ones.,0.169666
+83,Revolutionaries and visionaries fought to determine the course of humanity's destiny.,Revolutionaries and visionaries fought to determine the course of humanity's destiny.,0.000000
+84,"The Seldon Plan unfolded, its intricacies and nuances playing out across galaxies.","The Seldon plan has developed, its details and nuances have unfolded in the layers of the galaxies.",0.087944
+85,"Planets rose and fell, their fate intertwined with the grand design.","There was a falling and a falling of the planets, their fate torn apart in the great arrangement.",0.217631
+86,Mayors and councilors navigated the treacherous political machinations of the Foundation's leadership.,The twisted political machinations of the fund's leaders.,0.443441
+87,Traders and merchants leveraged their influence to shape the course of history.,Merchants and traders exploited their influence to shape the course of history.,0.043868
+88,Bel Riose's military might threatened to overwhelm the burgeoning power of the Foundation.,Balaam agreed to exercise his military power against the growing power of the Foundation.,0.619314
+89,Arkady Darell's quest for truth unearthed layers of deception and hidden agendas.,The truth of Arkady Darell has exposed layers of deception and hidden failures.,0.171959
+90,The Mule's uncanny abilities disrupted the delicate balance of the Seldon Plan.,The mighty power of Mole disrupted the delicate balance of Sheldon's plan.,0.630481
+91,Technological innovation and scientific advancement fueled the Foundation's expansion across the galaxy.,New technology and scientific advancement drove the expansion of the Sphere throughout the galaxy.,0.289432
+92,Clashes between tradition and progress defined the struggle for the future.,The clash between tradition and progress defined the struggle over the future.,0.029047
+93,The Second Foundation's subtle manipulations guided events from the shadows.,The hidden forces behind the scenes orchestrated the events.,0.520525
+94,Gaia's planetary consciousness challenged the prevailing notions of individualism and autonomy.,The cosmic consciousness of Gaia challenged the prevailing notions of individualism and autonomy.,0.077868
+95,Trevize's fateful decision would determine the fate of humanity for millennia.,The ancient decision of Traviz determined the fate of humanity for centuries.,0.289202
+96,The Foundation's encyclopedia became a beacon of knowledge in the galactic darkness.,The encyclopedia of the Fund became a guiding light in the galactic darkness.,0.227254
+97,Hari Seldon's psychohistory unraveled the complexities of civilizational rise and fall.,The Rise and Fall of Civilizations by Harry Sheldon uncovered the complexities of cultures.,0.449056
+98,Philosophers and strategists debated the merits of centralized control versus decentralized autonomy.,The advantages of central control versus decentralized autonomy were debated by philosophers and strategists.,0.049990
+99,Robots and humans navigated the shifting boundaries of their coexistence.,The robots and humans navigated the boundaries of the variables of their cooperation.,0.216040
+100,"Worlds joined the Foundation, drawn by the promise of prosperity and stability.","The repair of the worlds has united into a fund, being drawn towards the assurance of prosperity and stability.",0.290970

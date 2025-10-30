@@ -1,0 +1,13 @@
+{
+  "total_sentences": 100,
+  "mean_cosine_distance": 0.26434382796287537,
+  "variance": 0.029913589358329773,
+  "standard_deviation": 0.1729554533958435,
+  "min_distance": 0.0,
+  "max_distance": 0.8932391405105591,
+  "interpretation": {
+    "note": "Lower cosine distance = Higher semantic similarity",
+    "perfect_match": 0.0,
+    "completely_different": 1.0
+  }
+}

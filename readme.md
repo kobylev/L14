@@ -14,8 +14,8 @@ The system simulates a "Turing Machine" for translation, measuring the accumulat
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                       ORCHESTRATOR                               │
-│                (Main Coordinator & Pipeline Manager)             │
+│                       ORCHESTRATOR                              │
+│                (Main Coordinator & Pipeline Manager)            │
 └──────────┬──────────────────────────────────────────────────────┘
            │
            ├──► 📝 Sentences Creator Agent
@@ -235,11 +235,12 @@ L14/
 ├── .env                          # API key (not in git)
 ├── .gitignore                    # Git ignore rules
 │
-└── Generated Output Files:
-    ├── evaluation_metrics.json    # Statistical results
-    ├── evaluation_plot.png        # Visualization
-    ├── translation_results.json   # All sentence pairs with distances
-    └── translation_results.csv    # Indexed sentence pairs (Excel-friendly)
+└── Insights/                      # 📊 Analysis and Results (Output Directory)
+    ├── ניתוח תוצאות - הסבר.md    # In-depth analysis (Hebrew)
+    ├── evaluation_metrics.json    # Statistical metrics (generated)
+    ├── evaluation_plot.png        # Visualization (generated)
+    ├── translation_results.json   # All sentence pairs with distances (generated)
+    └── translation_results.csv    # Indexed sentence pairs - Excel-friendly (generated)
 ```
 
 ---
@@ -280,7 +281,7 @@ python run_and_save_with_display.py
 - Generates sentences and processes through translation chain
 - Prints all results to console
 - Displays interactive plot window
-- Saves four files: metrics JSON, plot PNG, results JSON, indexed CSV
+- Saves four files to `Insights/` folder: metrics JSON, plot PNG, results JSON, indexed CSV
 
 ### Option 2: Quick Test (3 sentences)
 
@@ -403,6 +404,29 @@ The system generates two plots:
 ![Translation Quality Evaluation Plot](evaluation_plot.png)
 
 *Figure: Translation quality evaluation showing cosine distance per sentence (top) and distribution histogram (bottom)*
+
+---
+
+## 📊 Insights & Deep Analysis
+
+For a comprehensive analysis of the translation quality results, including:
+- 📈 **Statistical interpretation** of the cosine distance metrics
+- 🏆 **Best and worst translations** with detailed examples
+- 🔍 **Pattern analysis** - why certain sentences perform better
+- 💡 **Insights on translation quality factors**
+- 📉 **Outlier analysis** and failure cases
+
+Please refer to the **[Insights folder](./Insights/)** which contains:
+
+- **[ניתוח תוצאות - הסבר.md](./Insights/ניתוח%20תוצאות%20-%20הסבר.md)** - Comprehensive analysis (in Hebrew) with:
+  - Statistical breakdown of the 50-sentence run
+  - Detailed examination of best/worst cases
+  - Semantic drift patterns through the translation chain
+  - Recommendations for improving translation quality
+
+- **Sample visualization and results CSV** for reference
+
+This in-depth analysis provides valuable insights into the behavior of multi-language translation chains and semantic preservation through multiple transformations.
 
 ---
 
