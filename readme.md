@@ -407,7 +407,7 @@ The system generates two plots:
 - Most values cluster around 0.10-0.40 range
 - Shows natural variation in translation quality
 
-![Translation Quality Evaluation Plot](evaluation_plot.png)
+![Translation Quality Evaluation Plot](./Insights/evaluation_plot.png)
 
 *Figure: Translation quality evaluation showing cosine distance per sentence (top) and distribution histogram (bottom)*
 
