@@ -332,24 +332,24 @@ print(f"Variance: {metrics['variance']}")
 
 ---
 
-## 📊 Sample Results (50 Sentences)
+## 📊 Sample Results (100 Sentences)
 
 ### Statistical Metrics
 
-Based on a complete run of 50 sentences through the translation chain:
+Based on a complete run of 100 sentences through the translation chain:
 
 ```
 ============================================================
 TRANSLATION QUALITY METRICS
 ============================================================
-Total Sentences Evaluated: 50
+Total Sentences Evaluated: 100
 
 Cosine Distance Statistics:
-  Average (Mean):          0.264000
-  Variance:                0.024156
-  Standard Deviation:      0.155429
-  Minimum Distance:        0.002842
-  Maximum Distance:        0.768420
+  Average (Mean):          0.264344
+  Variance:                0.029914
+  Standard Deviation:      0.172955
+  Minimum Distance:        0.000000
+  Maximum Distance:        0.893239
 
 Interpretation:
   • Lower cosine distance = Higher semantic similarity
@@ -370,14 +370,14 @@ Interpretation:
 - Some sentences translate better than others depending on complexity
 - Expected behavior for multi-language chain
 
-**Standard Deviation: 0.155**
-- ✅ **Moderate Distribution** - Most sentences fall within ±0.15 of the mean
+**Standard Deviation: 0.173**
+- ✅ **Moderate Distribution** - Most sentences fall within ±0.17 of the mean
 - Indicates variable but acceptable translation performance
 - Some outliers exist (very good or challenging translations)
 
 ### Sample Sentence Comparisons
 
-Examples from the actual 50-sentence run (showing various quality levels):
+Examples from the actual 100-sentence run (showing various quality levels):
 
 | # | Original English | Final Re-translated English | Distance |
 |---|-----------------|---------------------------|----------|
@@ -394,12 +394,12 @@ Examples from the actual 50-sentence run (showing various quality levels):
 The system generates two plots:
 
 #### **Plot 1: Cosine Distance per Sentence**
-- Scatter plot showing error for each of 50 sentences
+- Scatter plot showing error for each of 100 sentences
 - Blue dots: Individual cosine distances
 - Red dashed line: Mean (0.264)
 - Red shaded area: ±1 standard deviation band
-- X-axis: Sentence Index (1-50)
-- Y-axis: Cosine Distance (0.0-0.8)
+- X-axis: Sentence Index (1-100)
+- Y-axis: Cosine Distance (0.0-0.9)
 
 #### **Plot 2: Distribution Histogram**
 - Green bars: Frequency distribution of distances
@@ -425,7 +425,7 @@ For a comprehensive analysis of the translation quality results, including:
 Please refer to the **[Insights folder](./Insights/)** which contains:
 
 - **[ניתוח תוצאות - הסבר.md](./Insights/ניתוח%20תוצאות%20-%20הסבר.md)** - Comprehensive analysis (in Hebrew) with:
-  - Statistical breakdown of the 50-sentence run
+  - Statistical breakdown of the 100-sentence run
   - Detailed examination of best/worst cases
   - Semantic drift patterns through the translation chain
   - Recommendations for improving translation quality
@@ -506,7 +506,7 @@ Complete dataset with all sentence pairs:
 
 ```json
 {
-  "total_sentences": 50,
+  "total_sentences": 100,
   "pipeline": "English → Spanish → Hebrew → English",
   "results": [
     {
@@ -618,4 +618,4 @@ For issues or questions:
 
 ---
 
-*Last Updated: 29 October 2025*
+*Last Updated: 30 October 2025*
