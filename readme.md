@@ -221,26 +221,32 @@ comments, or additional text whatsoever.
 
 ```
 L14/
-├── agent_english_spanish.py       # Agent 2: EN → ES translator
-├── agent_spanish_hebrew.py        # Agent 3: ES → HE translator
-├── agent_hebrew_english.py        # Agent 4: HE → EN translator
-├── agent_sentences_creator.py     # Sentence generator agent
-├── agent_evaluation.py            # Quality evaluation agent
-├── orchestrator.py                # Main pipeline coordinator
-├── run_and_save_with_display.py  # Complete pipeline with display & save
-├── test_orchestrator.py          # Quick test (3 sentences)
-├── translate_with_claude.py      # Legacy/utility functions
-├── PRD.md                        # Product Requirements Document
-├── readme.md                     # This file
-├── .env                          # API key (not in git)
-├── .gitignore                    # Git ignore rules
+├── 🤖 Agent Files (Modular Translation Agents)
+│   ├── agent_english_spanish.py     # Agent 2: EN → ES translator
+│   ├── agent_spanish_hebrew.py      # Agent 3: ES → HE translator
+│   ├── agent_hebrew_english.py      # Agent 4: HE → EN translator
+│   ├── agent_sentences_creator.py   # Sentence generator agent
+│   └── agent_evaluation.py          # Quality evaluation agent
 │
-└── Insights/                      # 📊 Analysis and Results (Output Directory)
-    ├── ניתוח תוצאות - הסבר.md    # In-depth analysis (Hebrew)
-    ├── evaluation_metrics.json    # Statistical metrics (generated)
-    ├── evaluation_plot.png        # Visualization (generated)
-    ├── translation_results.json   # All sentence pairs with distances (generated)
-    └── translation_results.csv    # Indexed sentence pairs - Excel-friendly (generated)
+├── 🎯 Main Pipeline Files
+│   ├── orchestrator.py              # Main pipeline coordinator
+│   ├── run_and_save_with_display.py # Complete pipeline (recommended)
+│   └── test_orchestrator.py         # Quick test (3 sentences)
+│
+├── 📚 Documentation
+│   ├── readme.md                    # This file - Project overview
+│   └── PRD.md                       # Product Requirements Document
+│
+├── ⚙️ Configuration
+│   ├── .env                         # API key (not in git)
+│   └── .gitignore                   # Git ignore rules
+│
+└── 📊 Insights/ (Output Directory)
+    ├── ניתוח תוצאות - הסבר.md      # In-depth analysis (Hebrew)
+    ├── evaluation_metrics.json      # Statistical metrics (generated)
+    ├── evaluation_plot.png          # Visualization (generated)
+    ├── translation_results.json     # All sentence pairs with distances (generated)
+    └── translation_results.csv      # Indexed sentence pairs (generated)
 ```
 
 ---
