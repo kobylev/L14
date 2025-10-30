@@ -479,7 +479,7 @@ Contains statistical results:
 
 ```json
 {
-  "total_sentences": 50,
+  "total_sentences": 100,
   "mean_cosine_distance": 0.264000,
   "variance": 0.024156,
   "standard_deviation": 0.155429,
